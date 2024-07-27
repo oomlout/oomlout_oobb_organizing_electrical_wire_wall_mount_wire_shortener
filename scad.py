@@ -193,13 +193,13 @@ def get_base(thing, **kwargs):
     #join connecting screws in four corners
     if True:
         p3 = copy.deepcopy(kwargs)
-        p3["type"] = "p"
+        p3["type"] = "negative"
         p3["shape"] = f"oobb_screw_countersunk"
         p3["depth"] = depth
         p3["radius_name"] = "m3"
         p3["nut"] = True
         p3["overhang"] = True
-        p3["m"] = "#"
+        #p3["m"] = "#"
         poss = []
         pos1 = copy.deepcopy(pos)
         pos1[2] += depth/2
