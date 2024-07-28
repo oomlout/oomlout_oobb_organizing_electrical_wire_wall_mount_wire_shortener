@@ -50,7 +50,6 @@ def make_scad(**kwargs):
         wire_spacing = 15
         wire_diameter = 8
         switchback = 1
-        switchback_length = 45
         width = 5
         height = 5
         thickness = 12
@@ -63,37 +62,44 @@ def make_scad(**kwargs):
         kwargs["switchback"] = switchback            
         part["kwargs"] = kwargs
         part["name"] = f"base_{wire_count}_wire_{wire_spacing}_spacing_{wire_diameter}_wire_diameter_{switchback}_switchback"
-        parts.append(part)
+        #parts.append(part)
         
         part2 = copy.deepcopy(part)
         kwargs2 = copy.deepcopy(kwargs)
         kwargs2["extra"] = "snake"        
         part["kwargs"] = kwargs2
         part["name"] = f"base_{wire_count}_wire_{wire_spacing}_spacing_{wire_diameter}_wire_diameter_{switchback}_switchback"        
-        parts.append(part2)
+        #parts.append(part2)
 
-        part = copy.deepcopy(part_default)
-        p3 = copy.deepcopy(kwargs)
-        #p3["thickness"] = 6
-        part["kwargs"] = p3
-        wire_count = 1
-        wire_spacing = 15
-        wire_diameter = 4
-        switchback = 1
-        switchback_length = 45
-        width = 7
-        height = 3
-        thickness = 12
-        kwargs["width"] = width
-        kwargs["height"] = height
-        kwargs["thickness"] = thickness
-        kwargs["wire_count"] = wire_count
-        kwargs["wire_spacing"] = wire_spacing
-        kwargs["wire_diameter"] = wire_diameter
-        kwargs["switchback"] = switchback            
-        part["kwargs"] = kwargs
-        part["name"] = f"base_{wire_count}_wire_{wire_spacing}_spacing_{wire_diameter}_wire_diameter_{switchback}_switchback"
-        parts.append(part)
+
+
+        wire_diameters = [8,4]
+        sizes = []
+        
+        sizes.append([5,5])
+        sizes.append([7,3])
+        
+        thicknesses = [12,25]
+
+        wire_counts = [1,4]
+
+        for thickness in thicknesses:
+            for wire_diameter in wire_diameters:
+                for wire_count in wire_counts:
+                    for size in sizes:
+                        part = copy.deepcopy(part_default)
+                        p3 = copy.deepcopy(kwargs)
+                        part["kwargs"] = p3
+                        width = size[0]
+                        height = size[1]
+                        kwargs["width"] = width
+                        kwargs["height"] = height
+                        kwargs["thickness"] = thickness
+                        kwargs["wire_count"] = wire_count
+                        kwargs["wire_diameter"] = wire_diameter
+                        part["kwargs"] = copy.deepcopy(kwargs)
+                        part["name"] = f"base_{wire_diameter}_wire_diameter_{wire_count}_wire_count"
+                        parts.append(part)
 
 
     #make the parts
@@ -118,7 +124,7 @@ def get_base(thing, **kwargs):
         depth = kwargs.get("thickness", 4)
 
         wire_diameter = kwargs.get("wire_diameter", 8)
-        wire_spacing = kwargs.get("wire_spacing", 15)
+        wire_count = kwargs.get("wire_count", 1)
 
         prepare_print = kwargs.get("prepare_print", True)
 
@@ -154,30 +160,57 @@ def get_base(thing, **kwargs):
 
         #entrance wire pieces
         #wrong height need to make way if spacing isn't 15
-        if True:
-            p3 = copy.deepcopy(kwargs)
-            p3["type"] = "negative"
-            p3["shape"] = f"oobb_cylinder"
-            p3["radius"] = wire_diameter/2
-            dep = 15
-            p3["depth"] = dep
-            #p3["m"] = "#"
-            pos1 = copy.deepcopy(pos)
-            pos1[0] += (width-1)/2 * 15 - 15/2
-            pos1[1] += (height - 3)/2 * 15
-            pos1[2] += dep / 2
+        if True:            
+            if wire_count == 1:
+                p3 = copy.deepcopy(kwargs)
+                p3["type"] = "negative"
+                p3["shape"] = f"oobb_cylinder"
+                p3["radius"] = wire_diameter/2
+                dep = 15
+                p3["depth"] = dep
+                #p3["m"] = "#"
+                pos1 = copy.deepcopy(pos)
+                pos1[0] += (width-1)/2 * 15 - 15/2
+                pos1[1] += (height - 3)/2 * 15
+                pos1[2] += dep / 2
 
-            pos2 = copy.deepcopy(pos)
-            pos2[0] += -(width-1)/2 * 15 - 15/2
-            pos2[1] += -(height - 3)/2 * 15
-            pos2[2] += dep /2
+                pos2 = copy.deepcopy(pos)
+                pos2[0] += -(width-1)/2 * 15 - 15/2
+                pos2[1] += -(height - 3)/2 * 15
+                pos2[2] += dep /2
 
-            poss = [pos1,pos2]
-            p3["pos"] = poss
-            rot1 = [0,90,0]
-            p3["rot"] = rot1
-            oobb_base.append_full(thing,**p3)
+                poss = [pos1,pos2]
+                p3["pos"] = poss
+                rot1 = [0,90,0]
+                p3["rot"] = rot1
+                oobb_base.append_full(thing,**p3)
+            else:
+            
+                p3 = copy.deepcopy(kwargs)
+                p3["type"] = "negative"
+                p3["shape"] = f"oobb_cylinder"
+                p3["radius"] = wire_diameter/2
+                dep = 15
+                p3["depth"] = dep
+                #p3["m"] = "#"
+                poss = []
+                start_y = -((wire_count-1) * 15)/2
+                for i in range(wire_count):
+                    pos1 = copy.deepcopy(pos)
+                    pos1[0] += (width-1)/2 * 15 - 15/2
+                    pos1[1] += start_y + i * 15
+                    pos1[2] += dep / 2
 
+                    pos2 = copy.deepcopy(pos)
+                    pos2[0] += -(width-1)/2 * 15 - 15/2
+                    pos2[1] += start_y + i * 15
+                    pos2[2] += dep /2
+                    poss.append(pos1)
+                    poss.append(pos2)                
+                p3["pos"] = poss
+                rot1 = [0,90,0]
+                p3["rot"] = rot1
+                oobb_base.append_full(thing,**p3)
         #add center hollow
         if True:    
             p3 = copy.deepcopy(kwargs)
@@ -495,7 +528,8 @@ def make_scad_generic(part):
             start = 1.5 - (layers / 2)*3
         if "bunting" in thing:
             start = 0.5
-        opsc.opsc_make_object(f'scad_output/{thing["id"]}/{mode}.scad', thing["components"], mode=mode, save_type=save_type, overwrite=overwrite, layers=layers, tilediff=tilediff, start=start)    
+        id = thing["id"]
+        opsc.opsc_make_object(f'scad_output/{id}/{mode}.scad', thing["components"], mode=mode, save_type=save_type, overwrite=overwrite, layers=layers, tilediff=tilediff, start=start)    
 
 
 if __name__ == '__main__':
