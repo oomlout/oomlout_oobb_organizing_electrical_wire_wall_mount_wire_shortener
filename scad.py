@@ -161,7 +161,7 @@ def get_base(thing, **kwargs):
             p3["radius"] = wire_diameter/2
             dep = 15
             p3["depth"] = dep
-            p3["m"] = "#"
+            #p3["m"] = "#"
             pos1 = copy.deepcopy(pos)
             pos1[0] += (width-1)/2 * 15 - 15/2
             pos1[1] += (height - 3)/2 * 15
@@ -237,7 +237,7 @@ def get_base(thing, **kwargs):
             p3["m"] = "#"
             poss = []
             pos1 = copy.deepcopy(pos)
-            pos1[2] += depth/2-3
+            pos1[2] += 0
             shift_x = (width-3)/2 * 15 - 15/2
             shift_y = (height-1)/2 * 15 
             pos11 = copy.deepcopy(pos1)        
@@ -269,7 +269,7 @@ def get_base(thing, **kwargs):
             return_value_2["typetype"]  = "p"
             pos1 = copy.deepcopy(pos)
             pos1[0] += (width + 1) * 15 
-            pos1[2] += depth/2
+            pos1[2] += 0
             return_value_2["pos"] = pos1
             return_value_2["rot"] = [180,0,0]
             return_value_2["objects"] = components_second
@@ -282,7 +282,7 @@ def get_base(thing, **kwargs):
             p3["type"] = "n"
             p3["shape"] = f"oobb_slice"
             pos1 = copy.deepcopy(pos)
-            pos1[2] += depth/2 - 3
+            pos1[2] += 0
             p3["pos"] = pos1
             #p3["m"] = "#"
             oobb_base.append_full(thing,**p3)
