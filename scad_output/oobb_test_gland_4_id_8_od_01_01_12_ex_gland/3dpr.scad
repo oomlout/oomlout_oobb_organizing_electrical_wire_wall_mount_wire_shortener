@@ -19,7 +19,7 @@ difference() {
 					}
 					union() {
 						translate(v = [0, 0, -7.5000000000]) {
-							cylinder(h = 15, r = 2.0000000000);
+							cylinder(h = 15, r = 2.1250000000);
 						}
 					}
 				}
@@ -37,7 +37,7 @@ difference() {
 	}
 	union() {
 		translate(v = [0, 0, -7.5000000000]) {
-			cylinder(h = 15, r = 2.0000000000);
+			cylinder(h = 15, r = 2.1250000000);
 		}
 		translate(v = [-250.0000000000, 0, -250.0000000000]) {
 			cube(size = [500, 500, 500]);

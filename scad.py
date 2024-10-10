@@ -571,7 +571,7 @@ def get_gland(thing, **kwargs):
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "negative"
         p3["shape"] = f"oobb_cylinder"    
-        p3["radius"] = id/2
+        p3["radius"] = (id+clearance/2)/2
         p3["depth"] = length
         #p3["m"] = "#"
         pos1 = copy.deepcopy(pos)         
