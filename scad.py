@@ -528,6 +528,7 @@ def get_gland(thing, **kwargs):
     
     id = kwargs.get("id", 4)
 
+    #prepare_print = kwargs.get("prepare_print", False)
     prepare_print = kwargs.get("prepare_print", True)
 
     switchback = kwargs.get("switchback", 1)
@@ -538,17 +539,33 @@ def get_gland(thing, **kwargs):
     #pos[2] += -20
 
     #add main_cylinder
+    clearance = 0.5
     if True:
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "p"
         p3["shape"] = f"oobb_cylinder"    
-        p3["radius"] = wire_diameter/2
+        p3["radius"] = (wire_diameter-clearance)/2
         p3["depth"] = length
         #p3["m"] = "#"
         pos1 = copy.deepcopy(pos)         
         p3["pos"] = pos1
         oobb_base.append_full(thing,**p3)
+
+    #add locking cylinder on top    
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "p"
+        p3["shape"] = f"oobb_cylinder"    
+        p3["radius"] = 12/2
+        dep = ((length - 15/4)/2) - clearance/2
+        p3["depth"] = dep
+        #p3["m"] = "#"
+        pos1 = copy.deepcopy(pos)  
+        pos1[2] += length/2 - dep/2
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
         
+
     if True:
         #add hole
         p3 = copy.deepcopy(kwargs)
@@ -561,6 +578,8 @@ def get_gland(thing, **kwargs):
         p3["pos"] = pos1
         oobb_base.append_full(thing,**p3)
 
+
+
     #add locking pieces
     if True:    
         p3 = copy.deepcopy(kwargs)
@@ -568,7 +587,7 @@ def get_gland(thing, **kwargs):
         p3["shape"] = f"oobb_cube"
         wid = (wire_diameter + 6)/2
         hei = (depth - 3) 
-        dep = ((length - 15/4)/2)
+        dep = ((length - 15/4)/2) - clearance/2
         p3["size"] = [wid,hei,dep]
         #p3["m"] = "#"
         poss = []
@@ -585,9 +604,9 @@ def get_gland(thing, **kwargs):
         pos13 = copy.deepcopy(pos1)
         pos13[0] += -wid/2
         pos13[2] += length/2 - dep
-        poss.append(pos11)
+        #poss.append(pos11)
         poss.append(pos12)
-        poss.append(pos13)
+        #poss.append(pos13)
         p3["pos"] = poss
         oobb_base.append_full(thing,**p3)
 
