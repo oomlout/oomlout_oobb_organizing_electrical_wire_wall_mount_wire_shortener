@@ -106,7 +106,7 @@ def make_scad(**kwargs):
     #glands
     if True:
                         
-        ids = [4,5]
+        ids = [4,4.5,5]
         od = 8
 
         for id in ids:
