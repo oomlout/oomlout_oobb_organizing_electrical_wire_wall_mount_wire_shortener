@@ -11,7 +11,7 @@ def make_scad(**kwargs):
 
     # save_type variables
     if True:
-        filter = "base_8_wire_diameter_4_wire_count"
+        filter = ""
         #filter = "test"
 
         kwargs["save_type"] = "none"
@@ -81,8 +81,8 @@ def make_scad(**kwargs):
         sizes.append([5,5])
         sizes.append([7,3])
         
-        thicknesses = [12,25,60]
-        #thicknesses = [60]
+        thicknesses = [12,25,60,120]
+        #thicknesses = [120]
 
         wire_counts = [1,4]
 
