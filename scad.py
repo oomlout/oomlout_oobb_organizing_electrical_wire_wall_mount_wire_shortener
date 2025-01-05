@@ -2,6 +2,8 @@ import copy
 import opsc
 import oobb
 import oobb_base
+import os
+import yaml
 
 def main(**kwargs):
     make_scad(**kwargs)
@@ -12,13 +14,16 @@ def make_scad(**kwargs):
     # save_type variables
     if True:
         filter = ""
-        #filter = "test"
+        #filter = "extender"
 
         kwargs["save_type"] = "none"
         kwargs["save_type"] = "all"
         
         kwargs["overwrite"] = True
         
+        navigation = False
+        #navigation = True 
+
         #kwargs["modes"] = ["3dpr", "laser", "true"]
         kwargs["modes"] = ["3dpr"]
         #kwargs["modes"] = ["laser"]
@@ -76,6 +81,7 @@ def make_scad(**kwargs):
 
 
         wire_diameters = [8,4]
+        #wire_diameters = [4]
         sizes = []
         
         sizes.append([5,5])
@@ -85,6 +91,7 @@ def make_scad(**kwargs):
         #thicknesses = [120]
 
         wire_counts = [1,4]
+        #wire_counts = [4]
 
         for thickness in thicknesses:
             for wire_diameter in wire_diameters:
@@ -103,7 +110,21 @@ def make_scad(**kwargs):
                         part["kwargs"] = copy.deepcopy(kwargs)
                         part["name"] = f"base_{wire_diameter}_wire_diameter_{wire_count}_wire_count"
                         parts.append(part)
-    
+                        if thickness == 25:
+                            part = copy.deepcopy(part_default)
+                            p3 = copy.deepcopy(kwargs)
+                            part["kwargs"] = p3
+                            width = size[0]
+                            height = size[1]
+                            kwargs["width"] = width
+                            kwargs["height"] = height
+                            kwargs["thickness"] = thickness
+                            kwargs["wire_count"] = wire_count
+                            kwargs["wire_diameter"] = wire_diameter
+                            part["kwargs"] = copy.deepcopy(kwargs)
+                            part["name"] = f"extender_{wire_diameter}_wire_diameter_{wire_count}_wire_count"
+                            parts.append(part)
+
     #glands
     if True:
                         
@@ -137,216 +158,228 @@ def make_scad(**kwargs):
                 print(f"done {part['name']}")
             else:
                 print(f"skipping {part['name']}")
-
+    #generate navigation
+    if navigation:
+        sort = []
+        #sort.append("extra")        
+        sort.append("width")
+        sort.append("height")
+        sort.append("thickness")
+        sort.append("name")
+        
+        generate_navigation(sort = sort)
 
 def get_base(thing, **kwargs):
-
-    extra = kwargs.get("extra", "")
-    if extra == "snake":
-        get_base_snake(thing, **kwargs)
-    elif extra == "gland":
-        get_gland(thing, **kwargs)
+    name = thing.get("id", "default")
+    if "extender" in name:
+        get_extender(thing, **kwargs)
     else:
-        width = kwargs.get("width", 12)
-        height = kwargs.get("height", 12)
-        depth = kwargs.get("thickness", 4)
+        extra = kwargs.get("extra", "")
+        if extra == "snake":
+            get_base_snake(thing, **kwargs)
+        elif extra == "gland":
+            get_gland(thing, **kwargs)
+        else:
+            width = kwargs.get("width", 12)
+            height = kwargs.get("height", 12)
+            depth = kwargs.get("thickness", 4)
 
-        wire_diameter = kwargs.get("wire_diameter", 8)
-        wire_count = kwargs.get("wire_count", 1)
+            wire_diameter = kwargs.get("wire_diameter", 8)
+            wire_count = kwargs.get("wire_count", 1)
 
-        prepare_print = kwargs.get("prepare_print", True)
+            prepare_print = kwargs.get("prepare_print", True)
 
-        switchback = kwargs.get("switchback", 1)
-        switchback_length = kwargs.get("switchback_length", 45)
+            switchback = kwargs.get("switchback", 1)
+            switchback_length = kwargs.get("switchback_length", 45)
 
-        pos = kwargs.get("pos", [0, 0, 0])
-        #pos = copy.deepcopy(pos)
-        #pos[2] += -20
+            pos = kwargs.get("pos", [0, 0, 0])
+            #pos = copy.deepcopy(pos)
+            #pos[2] += -20
 
-        #add plate
-        if True:
-            p3 = copy.deepcopy(kwargs)
-            p3["type"] = "p"
-            p3["shape"] = f"oobb_plate"    
-            p3["depth"] = depth
-            #p3["m"] = "#"
-            pos1 = copy.deepcopy(pos)         
-            pos1[2] += -depth/2
-            p3["pos"] = pos1
-            oobb_base.append_full(thing,**p3)
-            #add holes
-            p3 = copy.deepcopy(kwargs)
-            p3["type"] = "p"
-            p3["shape"] = f"oobb_holes"
-            p3["both_holes"] = True  
-            
-            p3["holes"] = ["right", "left"]
-            #p3["m"] = "#"
-            pos1 = copy.deepcopy(pos)         
-            p3["pos"] = pos1
-            oobb_base.append_full(thing,**p3)
-
-        #entrance wire pieces
-        #wrong height need to make way if spacing isn't 15
-        if True:            
-            if wire_count == 1:
+            #add plate
+            if True:
                 p3 = copy.deepcopy(kwargs)
-                p3["type"] = "negative"
-                p3["shape"] = f"oobb_cylinder"
-                p3["radius"] = wire_diameter/2
-                dep = 15
-                p3["depth"] = dep
+                p3["type"] = "p"
+                p3["shape"] = f"oobb_plate"    
+                p3["depth"] = depth
                 #p3["m"] = "#"
-                pos1 = copy.deepcopy(pos)
-                pos1[0] += (width-1)/2 * 15 - 15/2
-                pos1[1] += (height - 3)/2 * 15
-                pos1[2] += dep / 2
-
-                pos2 = copy.deepcopy(pos)
-                pos2[0] += -(width-1)/2 * 15 - 15/2
-                pos2[1] += -(height - 3)/2 * 15
-                pos2[2] += dep /2
-
-                poss = [pos1,pos2]
-                p3["pos"] = poss
-                rot1 = [0,90,0]
-                p3["rot"] = rot1
+                pos1 = copy.deepcopy(pos)         
+                pos1[2] += -depth/2
+                p3["pos"] = pos1
                 oobb_base.append_full(thing,**p3)
-            else:
-            
+                #add holes
                 p3 = copy.deepcopy(kwargs)
-                p3["type"] = "negative"
-                p3["shape"] = f"oobb_cylinder"
-                p3["radius"] = wire_diameter/2
-                dep = 15
-                p3["depth"] = dep
+                p3["type"] = "p"
+                p3["shape"] = f"oobb_holes"
+                p3["both_holes"] = True  
+                
+                p3["holes"] = ["right", "left"]
                 #p3["m"] = "#"
-                poss = []
-                start_y = -((wire_count-1) * 15)/2
-                for i in range(wire_count):
+                pos1 = copy.deepcopy(pos)         
+                p3["pos"] = pos1
+                oobb_base.append_full(thing,**p3)
+
+            #entrance wire pieces
+            #wrong height need to make way if spacing isn't 15
+            if True:            
+                if wire_count == 1:
+                    p3 = copy.deepcopy(kwargs)
+                    p3["type"] = "negative"
+                    p3["shape"] = f"oobb_cylinder"
+                    p3["radius"] = wire_diameter/2
+                    dep = 15
+                    p3["depth"] = dep
+                    #p3["m"] = "#"
                     pos1 = copy.deepcopy(pos)
                     pos1[0] += (width-1)/2 * 15 - 15/2
-                    pos1[1] += start_y + i * 15
+                    pos1[1] += (height - 3)/2 * 15
                     pos1[2] += dep / 2
 
                     pos2 = copy.deepcopy(pos)
                     pos2[0] += -(width-1)/2 * 15 - 15/2
-                    pos2[1] += start_y + i * 15
+                    pos2[1] += -(height - 3)/2 * 15
                     pos2[2] += dep /2
-                    poss.append(pos1)
-                    poss.append(pos2)                
-                p3["pos"] = poss
-                rot1 = [0,90,0]
-                p3["rot"] = rot1
+
+                    poss = [pos1,pos2]
+                    p3["pos"] = poss
+                    rot1 = [0,90,0]
+                    p3["rot"] = rot1
+                    oobb_base.append_full(thing,**p3)
+                else:
+                
+                    p3 = copy.deepcopy(kwargs)
+                    p3["type"] = "negative"
+                    p3["shape"] = f"oobb_cylinder"
+                    p3["radius"] = wire_diameter/2
+                    dep = 15
+                    p3["depth"] = dep
+                    #p3["m"] = "#"
+                    poss = []
+                    start_y = -((wire_count-1) * 15)/2
+                    for i in range(wire_count):
+                        pos1 = copy.deepcopy(pos)
+                        pos1[0] += (width-1)/2 * 15 - 15/2
+                        pos1[1] += start_y + i * 15
+                        pos1[2] += dep / 2
+
+                        pos2 = copy.deepcopy(pos)
+                        pos2[0] += -(width-1)/2 * 15 - 15/2
+                        pos2[1] += start_y + i * 15
+                        pos2[2] += dep /2
+                        poss.append(pos1)
+                        poss.append(pos2)                
+                    p3["pos"] = poss
+                    rot1 = [0,90,0]
+                    p3["rot"] = rot1
+                    oobb_base.append_full(thing,**p3)
+            #add center hollow
+            if True:    
+                p3 = copy.deepcopy(kwargs)
+                p3["type"] = "negative"
+                p3["shape"] = f"oobb_plate"    
+                p3["width"] = width-0.5
+                p3["height"] = height-1.5
+                p3["depth"] = depth - 3
+
+                #p3["m"] = "#"
+                pos1 = copy.deepcopy(pos)         
+                pos1[2] += -depth/2 + 1.5
+                p3["pos"] = pos1
                 oobb_base.append_full(thing,**p3)
-        #add center hollow
-        if True:    
-            p3 = copy.deepcopy(kwargs)
-            p3["type"] = "negative"
-            p3["shape"] = f"oobb_plate"    
-            p3["width"] = width-0.5
-            p3["height"] = height-1.5
-            p3["depth"] = depth - 3
 
-            #p3["m"] = "#"
-            pos1 = copy.deepcopy(pos)         
-            pos1[2] += -depth/2 + 1.5
-            p3["pos"] = pos1
-            oobb_base.append_full(thing,**p3)
+            #join connecting screws in four corners
+            if True:
+                p3 = copy.deepcopy(kwargs)
+                p3["type"] = "negative"
+                p3["shape"] = f"oobb_screw_countersunk"
+                p3["depth"] = depth
+                p3["radius_name"] = "m3"
+                p3["nut"] = True
+                p3["overhang"] = True
+                #p3["m"] = "#"
+                poss = []
+                pos1 = copy.deepcopy(pos)
+                pos1[2] += depth/2
+                shift_x = (width-1)/2 * 15 - 15/2
+                shift_y = (height-1)/2 * 15 
+                pos11 = copy.deepcopy(pos1)        
+                pos11[0] += shift_x
+                pos11[1] += shift_y
+                poss.append(pos11)
+                pos12 = copy.deepcopy(pos1)
+                pos12[0] += -shift_x
+                pos12[1] += -shift_y
+                poss.append(pos12)
+                pos13 = copy.deepcopy(pos1)
+                pos13[0] += -shift_x
+                pos13[1] += shift_y
+                poss.append(pos13)
+                pos14 = copy.deepcopy(pos1)
+                pos14[0] += shift_x
+                pos14[1] += -shift_y
+                poss.append(pos14)
+                p3["pos"] = poss
+                oobb_base.append_full(thing,**p3)
 
-        #join connecting screws in four corners
-        if True:
-            p3 = copy.deepcopy(kwargs)
-            p3["type"] = "negative"
-            p3["shape"] = f"oobb_screw_countersunk"
-            p3["depth"] = depth
-            p3["radius_name"] = "m3"
-            p3["nut"] = True
-            p3["overhang"] = True
-            #p3["m"] = "#"
-            poss = []
-            pos1 = copy.deepcopy(pos)
-            pos1[2] += depth/2
-            shift_x = (width-1)/2 * 15 - 15/2
-            shift_y = (height-1)/2 * 15 
-            pos11 = copy.deepcopy(pos1)        
-            pos11[0] += shift_x
-            pos11[1] += shift_y
-            poss.append(pos11)
-            pos12 = copy.deepcopy(pos1)
-            pos12[0] += -shift_x
-            pos12[1] += -shift_y
-            poss.append(pos12)
-            pos13 = copy.deepcopy(pos1)
-            pos13[0] += -shift_x
-            pos13[1] += shift_y
-            poss.append(pos13)
-            pos14 = copy.deepcopy(pos1)
-            pos14[0] += shift_x
-            pos14[1] += -shift_y
-            poss.append(pos14)
-            p3["pos"] = poss
-            oobb_base.append_full(thing,**p3)
-
-        #add countersunk for wood screws to four corners but in a bit
-        if True:
-            p3 = copy.deepcopy(kwargs)
-            p3["type"] = "negative"
-            p3["shape"] = f"oobb_screw_countersunk"
-            p3["depth"] = depth
-            p3["radius_name"] = "m3_screw_wood"
-            p3["m"] = "#"
-            poss = []
-            pos1 = copy.deepcopy(pos)
-            pos1[2] += 0
-            shift_x = (width-3)/2 * 15 - 15/2
-            shift_y = (height-1)/2 * 15 
-            pos11 = copy.deepcopy(pos1)        
-            pos11[0] += shift_x
-            pos11[1] += shift_y
-            poss.append(pos11)
-            pos12 = copy.deepcopy(pos1)
-            pos12[0] += -shift_x
-            pos12[1] += -shift_y
-            poss.append(pos12)
-            pos13 = copy.deepcopy(pos1)
-            pos13[0] += -shift_x
-            pos13[1] += shift_y
-            poss.append(pos13)
-            pos14 = copy.deepcopy(pos1)
-            pos14[0] += shift_x
-            pos14[1] += -shift_y
-            poss.append(pos14)
-            p3["pos"] = poss
-            oobb_base.append_full(thing,**p3)
+            #add countersunk for wood screws to four corners but in a bit
+            if True:
+                p3 = copy.deepcopy(kwargs)
+                p3["type"] = "negative"
+                p3["shape"] = f"oobb_screw_countersunk"
+                p3["depth"] = depth
+                p3["radius_name"] = "m3_screw_wood"
+                p3["m"] = "#"
+                poss = []
+                pos1 = copy.deepcopy(pos)
+                pos1[2] += 0
+                shift_x = (width-3)/2 * 15 - 15/2
+                shift_y = (height-1)/2 * 15 
+                pos11 = copy.deepcopy(pos1)        
+                pos11[0] += shift_x
+                pos11[1] += shift_y
+                poss.append(pos11)
+                pos12 = copy.deepcopy(pos1)
+                pos12[0] += -shift_x
+                pos12[1] += -shift_y
+                poss.append(pos12)
+                pos13 = copy.deepcopy(pos1)
+                pos13[0] += -shift_x
+                pos13[1] += shift_y
+                poss.append(pos13)
+                pos14 = copy.deepcopy(pos1)
+                pos14[0] += shift_x
+                pos14[1] += -shift_y
+                poss.append(pos14)
+                p3["pos"] = poss
+                oobb_base.append_full(thing,**p3)
 
 
 
-        if prepare_print:
-            #put into a rotation object
-            components_second = copy.deepcopy(thing["components"])
-            return_value_2 = {}
-            return_value_2["type"]  = "rotation"
-            return_value_2["typetype"]  = "p"
-            pos1 = copy.deepcopy(pos)
-            pos1[0] += (width + 1) * 15 
-            pos1[2] += 0
-            return_value_2["pos"] = pos1
-            return_value_2["rot"] = [180,0,0]
-            return_value_2["objects"] = components_second
+            if prepare_print:
+                #put into a rotation object
+                components_second = copy.deepcopy(thing["components"])
+                return_value_2 = {}
+                return_value_2["type"]  = "rotation"
+                return_value_2["typetype"]  = "p"
+                pos1 = copy.deepcopy(pos)
+                pos1[0] += (width + 1) * 15 
+                pos1[2] += 0
+                return_value_2["pos"] = pos1
+                return_value_2["rot"] = [180,0,0]
+                return_value_2["objects"] = components_second
+                
+                thing["components"].append(return_value_2)
+
             
-            thing["components"].append(return_value_2)
-
-        
-            #add slice # top
-            p3 = copy.deepcopy(kwargs)
-            p3["type"] = "n"
-            p3["shape"] = f"oobb_slice"
-            pos1 = copy.deepcopy(pos)
-            pos1[2] += 0
-            p3["pos"] = pos1
-            #p3["m"] = "#"
-            oobb_base.append_full(thing,**p3)
+                #add slice # top
+                p3 = copy.deepcopy(kwargs)
+                p3["type"] = "n"
+                p3["shape"] = f"oobb_slice"
+                pos1 = copy.deepcopy(pos)
+                pos1[2] += 0
+                p3["pos"] = pos1
+                #p3["m"] = "#"
+                oobb_base.append_full(thing,**p3)
 
 def get_base_snake(thing, **kwargs):
 
@@ -517,6 +550,244 @@ def get_base_snake(thing, **kwargs):
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
 
+def get_extender(thing, **kwargs):
+
+    extra = kwargs.get("extra", "")
+    width = kwargs.get("width", 12)
+    height = kwargs.get("height", 12)
+    depth = kwargs.get("thickness", 4)
+
+    wire_diameter = kwargs.get("wire_diameter", 8)
+    wire_count = kwargs.get("wire_count", 1)
+
+    prepare_print = kwargs.get("prepare_print", False)
+
+    switchback = kwargs.get("switchback", 1)
+    switchback_length = kwargs.get("switchback_length", 45)
+
+    pos = kwargs.get("pos", [0, 0, 0])
+    #pos = copy.deepcopy(pos)
+    #pos[2] += -20
+
+    #add plate
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "p"
+        p3["shape"] = f"oobb_plate"    
+        p3["depth"] = depth
+        #p3["m"] = "#"
+        pos1 = copy.deepcopy(pos)         
+        pos1[2] += -depth/2
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+        
+        
+        #add holes
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "p"
+        p3["shape"] = f"oobb_holes"
+        p3["both_holes"] = True          
+        p3["holes"] = ["right", "left"]
+        #p3["m"] = "#"
+        pos1 = copy.deepcopy(pos)         
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+
+    #entrance wire pieces
+    #wrong height need to make way if spacing isn't 15
+    if True:            
+        if wire_count == 1:
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "negative"
+            p3["shape"] = f"oobb_cylinder"
+            p3["radius"] = wire_diameter/2
+            dep = 15
+            p3["depth"] = dep
+            #p3["m"] = "#"
+            pos1 = copy.deepcopy(pos)
+            pos1[0] += (width-1)/2 * 15 - 15/2
+            pos1[1] += (height - 3)/2 * 15
+            pos1[2] += 0#dep / 2
+
+            pos2 = copy.deepcopy(pos)
+            pos2[0] += -(width-1)/2 * 15 - 15/2
+            pos2[1] += -(height - 3)/2 * 15
+            pos2[2] += 0#dep /2
+
+            poss = [pos1,pos2]
+            p3["pos"] = poss
+            rot1 = [0,90,0]
+            p3["rot"] = rot1
+            oobb_base.append_full(thing,**p3)
+        else:
+        
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "negative"
+            p3["shape"] = f"oobb_cylinder"
+            p3["radius"] = wire_diameter/2
+            dep = 15
+            p3["depth"] = dep
+            #p3["m"] = "#"
+            poss = []
+            start_y = -((wire_count-1) * 15)/2
+            for i in range(wire_count):
+                pos1 = copy.deepcopy(pos)
+                pos1[0] += (width-1)/2 * 15 - 15/2
+                pos1[1] += start_y + i * 15
+                pos1[2] += dep / 2 - depth/2
+
+                pos11 = copy.deepcopy(pos1)
+                pos11[2] += depth
+
+                pos2 = copy.deepcopy(pos)
+                pos2[0] += -(width-1)/2 * 15 - 15/2
+                pos2[1] += start_y + i * 15
+                pos2[2] += dep /2 - depth/2
+
+                pos21 = copy.deepcopy(pos2)
+                pos21[2] += depth
+
+                poss.append(pos1)
+                poss.append(pos11)
+                poss.append(pos2) 
+                poss.append(pos21)               
+            p3["pos"] = poss
+            rot1 = [0,90,0]
+            p3["rot"] = rot1
+            oobb_base.append_full(thing,**p3)
+    #add center hollow
+    if True:    
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_plate"    
+        p3["width"] = width-0.5
+        p3["height"] = height-1.5
+        p3["depth"] = depth
+
+        #p3["m"] = "#"
+        pos1 = copy.deepcopy(pos)         
+        pos1[2] += -depth/2
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+
+    #join connecting screws in four corners
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_screw_countersunk"
+        p3["depth"] = depth
+        p3["radius_name"] = "m3"
+        p3["nut"] = True
+        p3["overhang"] = True
+        #p3["m"] = "#"
+        poss = []
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += depth/2
+        shift_x = (width-1)/2 * 15 - 15/2
+        shift_y = (height-1)/2 * 15 
+        pos11 = copy.deepcopy(pos1)        
+        pos11[0] += shift_x
+        pos11[1] += shift_y
+        poss.append(pos11)
+        pos12 = copy.deepcopy(pos1)
+        pos12[0] += -shift_x
+        pos12[1] += -shift_y
+        poss.append(pos12)
+        pos13 = copy.deepcopy(pos1)
+        pos13[0] += -shift_x
+        pos13[1] += shift_y
+        poss.append(pos13)
+        pos14 = copy.deepcopy(pos1)
+        pos14[0] += shift_x
+        pos14[1] += -shift_y
+        poss.append(pos14)
+        p3["pos"] = poss
+        oobb_base.append_full(thing,**p3)
+
+    #add countersunk for wood screws to four corners but in a bit
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_screw_countersunk"
+        p3["depth"] = depth
+        p3["radius_name"] = "m3_screw_wood"
+        p3["m"] = "#"
+        p3["clearance"] = "top"
+        poss = []
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += 0
+        shift_x = (width-3)/2 * 15 - 15/2
+        shift_y = (height-1)/2 * 15 
+        pos11 = copy.deepcopy(pos1)        
+        pos11[0] += shift_x
+        pos11[1] += shift_y        
+        pos12 = copy.deepcopy(pos1)
+        pos12[0] += -shift_x
+        pos12[1] += -shift_y        
+        pos13 = copy.deepcopy(pos1)
+        pos13[0] += -shift_x
+        pos13[1] += shift_y        
+        pos14 = copy.deepcopy(pos1)
+        pos14[0] += shift_x
+        pos14[1] += -shift_y
+        #poss.append(pos11)
+        #poss.append(pos12)
+        poss.append(pos13)
+        poss.append(pos14)
+        p3["pos"] = poss
+        oobb_base.append_full(thing,**p3)
+
+        #add nuts
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_nut"
+        p3["radius_name"] = "m3"
+        p3["clearance"] = "right"
+        p3["extra_clearance"] = 0.5
+        p3["overhang"] = True
+        p3["m"] = "#"
+        rot1 = [0,0,90]
+        p3["rot"] = rot1
+        poss = []
+        poss.append(pos11)
+        #poss.append(pos12)
+        p3["pos"] = poss
+        oobb_base.append_full(thing,**p3)
+
+        p4 = copy.deepcopy(p3)
+        p4["clearance"] = "left"
+        poss = []
+        poss.append(pos12)
+        p4["pos"] = poss
+        oobb_base.append_full(thing,**p4)
+
+    if prepare_print:
+        #put into a rotation object
+        components_second = copy.deepcopy(thing["components"])
+        return_value_2 = {}
+        return_value_2["type"]  = "rotation"
+        return_value_2["typetype"]  = "p"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += (width + 1) * 15 
+        pos1[2] += 0
+        return_value_2["pos"] = pos1
+        return_value_2["rot"] = [180,0,0]
+        return_value_2["objects"] = components_second
+        
+        thing["components"].append(return_value_2)
+
+    
+        #add slice # top
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_slice"
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += 0
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
+
 def get_gland(thing, **kwargs):
     extra = kwargs.get("extra", "")
     width = kwargs.get("width", 12)
@@ -674,6 +945,8 @@ def make_scad_generic(part):
     except:
         get_base(thing, **kwargs)
 
+    folder = f"scad_output/{thing['id']}"
+
     for mode in modes:
         depth = thing.get(
             "depth_mm", thing.get("thickness_mm", 3))
@@ -686,8 +959,69 @@ def make_scad_generic(part):
         if "bunting" in thing:
             start = 0.5
         id = thing["id"]
-        opsc.opsc_make_object(f'scad_output/{id}/{mode}.scad', thing["components"], mode=mode, save_type=save_type, overwrite=overwrite, layers=layers, tilediff=tilediff, start=start)    
+        
+        opsc.opsc_make_object(f'{folder}/{mode}.scad', thing["components"], mode=mode, save_type=save_type, overwrite=overwrite, layers=layers, tilediff=tilediff, start=start)  
 
+    yaml_file = f"{folder}/working.yaml"
+    with open(yaml_file, 'w') as file:
+        part_new = copy.deepcopy(part)
+        kwargs_new = part_new.get("kwargs", {})
+        kwargs_new.pop("save_type","")
+        part_new["kwargs"] = kwargs_new
+        import os
+        cwd = os.getcwd()
+        part_new["project_name"] = cwd
+        part_new["id"] = thing["id"]
+        part_new["thing"] = thing
+        yaml.dump(part_new, file)
+
+
+def generate_navigation(folder="scad_output", sort=["width", "height", "thickness"]):
+    #crawl though all directories in scad_output and load all the working.yaml files
+    parts = {}
+    for root, dirs, files in os.walk(folder):
+        if 'working.yaml' in files:
+            yaml_file = os.path.join(root, 'working.yaml')
+            #if working.yaml isn't in the root directory, then do it
+            if root != folder:
+                with open(yaml_file, 'r') as file:
+                    part = yaml.safe_load(file)
+                    # Process the loaded YAML content as needed
+                    part["folder"] = root
+                    part_name = root.replace(f"{folder}","")
+                    
+                    #remove all slashes
+                    part_name = part_name.replace("/","").replace("\\","")
+                    parts[part_name] = part
+
+                    print(f"Loaded {yaml_file}")#: {part}")
+
+    pass
+    for part_id in parts:
+        part = parts[part_id]
+        kwarg_copy = copy.deepcopy(part["kwargs"])
+        folder_navigation = "navigation_oobb"
+        folder_source = part["folder"]
+        folder_extra = ""
+        for s in sort:
+            if s == "name":
+                ex = part.get("name", "default")
+            else:
+                ex = kwarg_copy.get(s, "default")
+            folder_extra += f"{s}_{ex}/"
+
+        #replace "." with d
+        folder_extra = folder_extra.replace(".","d")            
+        folder_destination = f"{folder_navigation}/{folder_extra}"
+        if not os.path.exists(folder_destination):
+            os.makedirs(folder_destination)
+        if os.name == 'nt':
+            #copy a full directory auto overwrite
+            command = f'xcopy "{folder_source}" "{folder_destination}" /E /I /Y'
+            print(command)
+            os.system(command)
+        else:
+            os.system(f"cp {folder_source} {folder_destination}")
 
 if __name__ == '__main__':
     kwargs = {}
