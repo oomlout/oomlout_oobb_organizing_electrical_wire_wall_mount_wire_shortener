@@ -14,7 +14,7 @@ def make_scad(**kwargs):
     # save_type variables
     if True:
         filter = ""
-        #filter = "extender"
+        filter = "extender"
 
         kwargs["save_type"] = "none"
         kwargs["save_type"] = "all"
@@ -80,18 +80,18 @@ def make_scad(**kwargs):
 
 
 
-        wire_diameters = [8,4]
-        #wire_diameters = [4]
+        #wire_diameters = [8,4]
+        wire_diameters = [4]
         sizes = []
         
         sizes.append([5,5])
-        sizes.append([7,3])
+        #sizes.append([7,3])
         
         thicknesses = [12,25,60,120]
         #thicknesses = [120]
 
-        wire_counts = [1,4]
-        #wire_counts = [4]
+        #wire_counts = [1,4]
+        wire_counts = [4]
 
         for thickness in thicknesses:
             for wire_diameter in wire_diameters:
@@ -647,9 +647,9 @@ def get_extender(thing, **kwargs):
                 pos21 = copy.deepcopy(pos2)
                 pos21[2] += depth
 
-                poss.append(pos1)
+                #poss.append(pos1)
                 poss.append(pos11)
-                poss.append(pos2) 
+                #poss.append(pos2) 
                 poss.append(pos21)               
             p3["pos"] = poss
             rot1 = [0,90,0]
