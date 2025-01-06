@@ -17,12 +17,12 @@ def make_scad(**kwargs):
         #filter = "extender"
 
         kwargs["save_type"] = "none"
-        kwargs["save_type"] = "all"
+        #kwargs["save_type"] = "all"
         
         kwargs["overwrite"] = True
         
         navigation = False
-        #navigation = True 
+        navigation = True 
 
         #kwargs["modes"] = ["3dpr", "laser", "true"]
         kwargs["modes"] = ["3dpr"]
