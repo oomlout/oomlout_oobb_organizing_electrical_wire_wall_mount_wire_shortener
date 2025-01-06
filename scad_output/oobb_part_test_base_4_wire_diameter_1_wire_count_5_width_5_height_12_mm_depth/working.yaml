@@ -11454,7 +11454,7 @@ thing:
     - 0
     - 0
     - -6.0
-    save_type: none
+    save_type: all
     shape: oobb_plate
     switchback: 1
     thickness: 12
@@ -11475,7 +11475,7 @@ thing:
     - 0
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_holes
     switchback: 1
     thickness: 12
@@ -11498,7 +11498,7 @@ thing:
     - 0
     - 90
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_cylinder
     switchback: 1
     thickness: 12
@@ -11521,7 +11521,7 @@ thing:
     - 0
     - 90
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_cylinder
     switchback: 1
     thickness: 12
@@ -11539,7 +11539,7 @@ thing:
     - 0
     - 0
     - -4.5
-    save_type: none
+    save_type: all
     shape: oobb_plate
     switchback: 1
     thickness: 12
@@ -11560,7 +11560,7 @@ thing:
     - 30.0
     - 6.0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     switchback: 1
     thickness: 12
@@ -11581,7 +11581,7 @@ thing:
     - -30.0
     - 6.0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     switchback: 1
     thickness: 12
@@ -11602,7 +11602,7 @@ thing:
     - 30.0
     - 6.0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     switchback: 1
     thickness: 12
@@ -11623,7 +11623,7 @@ thing:
     - -30.0
     - 6.0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     switchback: 1
     thickness: 12
@@ -11643,7 +11643,7 @@ thing:
     - 30.0
     - 0
     radius_name: m3_screw_wood
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     switchback: 1
     thickness: 12
@@ -11663,7 +11663,7 @@ thing:
     - -30.0
     - 0
     radius_name: m3_screw_wood
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     switchback: 1
     thickness: 12
@@ -11683,7 +11683,7 @@ thing:
     - 30.0
     - 0
     radius_name: m3_screw_wood
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     switchback: 1
     thickness: 12
@@ -11703,7 +11703,7 @@ thing:
     - -30.0
     - 0
     radius_name: m3_screw_wood
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     switchback: 1
     thickness: 12
@@ -11720,7 +11720,7 @@ thing:
     - 0
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_slice
     switchback: 1
     thickness: 12
@@ -11730,20 +11730,20 @@ thing:
     wire_diameter: 4
     wire_spacing: 15
   components_string:
-  - oobb_plate_shape_p_type_12_depth_0_0_-6.0_pos_none_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
-  - oobb_holes_shape_p_type_none_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_true_both_holes_'right'_'left'_holes
-  - oobb_cylinder_shape_negative_type_15_depth_22.5_15.0_7.5_pos_none_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_2.0_radius_0_90_0_rot
-  - oobb_cylinder_shape_negative_type_15_depth_-37.5_-15.0_7.5_pos_none_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_2.0_radius_0_90_0_rot
-  - oobb_plate_shape_negative_type_9_depth_0_0_-4.5_pos_none_save_type_true_overwrite_'3dpr'_modes_4.5_width_3.5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_12_depth_22.5_30.0_6.0_pos_none_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_true_nut_true_overhang
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_12_depth_-22.5_-30.0_6.0_pos_none_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_true_nut_true_overhang
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_12_depth_-22.5_30.0_6.0_pos_none_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_true_nut_true_overhang
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_12_depth_22.5_-30.0_6.0_pos_none_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_true_nut_true_overhang
-  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_12_depth_7.5_30.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
-  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_12_depth_-7.5_-30.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
-  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_12_depth_-7.5_30.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
-  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_12_depth_7.5_-30.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
-  - oobb_slice_shape_n_type_none_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
+  - oobb_plate_shape_p_type_12_depth_0_0_-6.0_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
+  - oobb_holes_shape_p_type_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_true_both_holes_'right'_'left'_holes
+  - oobb_cylinder_shape_negative_type_15_depth_22.5_15.0_7.5_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_2.0_radius_0_90_0_rot
+  - oobb_cylinder_shape_negative_type_15_depth_-37.5_-15.0_7.5_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_2.0_radius_0_90_0_rot
+  - oobb_plate_shape_negative_type_9_depth_0_0_-4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4.5_width_3.5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_12_depth_22.5_30.0_6.0_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_true_nut_true_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_12_depth_-22.5_-30.0_6.0_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_true_nut_true_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_12_depth_-22.5_30.0_6.0_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_true_nut_true_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_12_depth_22.5_-30.0_6.0_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_true_nut_true_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_12_depth_7.5_30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
+  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_12_depth_-7.5_-30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
+  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_12_depth_-7.5_30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
+  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_12_depth_7.5_-30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
+  - oobb_slice_shape_n_type_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_12_thickness_1_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
   description: test base 4 wire diameter 1 wire count 5x5x12
   description_extra: ''
   description_main: 5_width_5_height_12_mm_depth

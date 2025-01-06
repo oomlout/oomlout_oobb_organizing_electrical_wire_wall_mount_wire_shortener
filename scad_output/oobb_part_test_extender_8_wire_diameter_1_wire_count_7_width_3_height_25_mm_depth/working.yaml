@@ -6849,7 +6849,7 @@ thing:
     - 0
     - 0
     - -12.5
-    save_type: none
+    save_type: all
     shape: oobb_plate
     switchback: 1
     thickness: 25
@@ -6870,7 +6870,7 @@ thing:
     - 0
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_holes
     switchback: 1
     thickness: 25
@@ -6893,7 +6893,7 @@ thing:
     - 0
     - 90
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_cylinder
     switchback: 1
     thickness: 25
@@ -6916,7 +6916,7 @@ thing:
     - 0
     - 90
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_cylinder
     switchback: 1
     thickness: 25
@@ -6934,7 +6934,7 @@ thing:
     - 0
     - 0
     - -12.5
-    save_type: none
+    save_type: all
     shape: oobb_plate
     switchback: 1
     thickness: 25
@@ -6955,7 +6955,7 @@ thing:
     - 15.0
     - 12.5
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     switchback: 1
     thickness: 25
@@ -6976,7 +6976,7 @@ thing:
     - -15.0
     - 12.5
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     switchback: 1
     thickness: 25
@@ -6997,7 +6997,7 @@ thing:
     - 15.0
     - 12.5
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     switchback: 1
     thickness: 25
@@ -7018,7 +7018,7 @@ thing:
     - -15.0
     - 12.5
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     switchback: 1
     thickness: 25
@@ -7039,7 +7039,7 @@ thing:
     - 15.0
     - 0
     radius_name: m3_screw_wood
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     switchback: 1
     thickness: 25
@@ -7060,7 +7060,7 @@ thing:
     - -15.0
     - 0
     radius_name: m3_screw_wood
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     switchback: 1
     thickness: 25
@@ -7086,7 +7086,7 @@ thing:
     - 0
     - 0
     - 90
-    save_type: none
+    save_type: all
     shape: oobb_nut
     switchback: 1
     thickness: 25
@@ -7112,7 +7112,7 @@ thing:
     - 0
     - 0
     - 90
-    save_type: none
+    save_type: all
     shape: oobb_nut
     switchback: 1
     thickness: 25
@@ -7122,19 +7122,19 @@ thing:
     wire_diameter: 8
     wire_spacing: 15
   components_string:
-  - oobb_plate_shape_p_type_25_depth_0_0_-12.5_pos_none_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback
-  - oobb_holes_shape_p_type_none_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_true_both_holes_'right'_'left'_holes
-  - oobb_cylinder_shape_negative_type_15_depth_37.5_0.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_4.0_radius_0_90_0_rot
-  - oobb_cylinder_shape_negative_type_15_depth_-52.5_0.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_4.0_radius_0_90_0_rot
-  - oobb_plate_shape_negative_type_25_depth_0_0_-12.5_pos_none_save_type_true_overwrite_'3dpr'_modes_6.5_width_1.5_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_25_depth_37.5_15.0_12.5_pos_none_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_true_nut_true_overhang
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_25_depth_-37.5_-15.0_12.5_pos_none_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_true_nut_true_overhang
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_25_depth_-37.5_15.0_12.5_pos_none_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_true_nut_true_overhang
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_25_depth_37.5_-15.0_12.5_pos_none_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_true_nut_true_overhang
-  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_25_depth_-22.5_15.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_top_clearance
-  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_25_depth_22.5_-15.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_top_clearance
-  - oobb_nut_shape_negative_type_m3_radius_name_22.5_15.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_right_clearance_0.5_extra_clearance_true_overhang_0_0_90_rot
-  - oobb_nut_shape_negative_type_m3_radius_name_-22.5_-15.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_left_clearance_0.5_extra_clearance_true_overhang_0_0_90_rot
+  - oobb_plate_shape_p_type_25_depth_0_0_-12.5_pos_all_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback
+  - oobb_holes_shape_p_type_all_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_true_both_holes_'right'_'left'_holes
+  - oobb_cylinder_shape_negative_type_15_depth_37.5_0.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_4.0_radius_0_90_0_rot
+  - oobb_cylinder_shape_negative_type_15_depth_-52.5_0.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_4.0_radius_0_90_0_rot
+  - oobb_plate_shape_negative_type_25_depth_0_0_-12.5_pos_all_save_type_true_overwrite_'3dpr'_modes_6.5_width_1.5_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_25_depth_37.5_15.0_12.5_pos_all_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_true_nut_true_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_25_depth_-37.5_-15.0_12.5_pos_all_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_true_nut_true_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_25_depth_-37.5_15.0_12.5_pos_all_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_true_nut_true_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_25_depth_37.5_-15.0_12.5_pos_all_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_true_nut_true_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_25_depth_-22.5_15.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_top_clearance
+  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_25_depth_22.5_-15.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_top_clearance
+  - oobb_nut_shape_negative_type_m3_radius_name_22.5_15.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_right_clearance_0.5_extra_clearance_true_overhang_0_0_90_rot
+  - oobb_nut_shape_negative_type_m3_radius_name_-22.5_-15.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_7_width_3_height_25_thickness_1_wire_count_15_wire_spacing_8_wire_diameter_1_switchback_left_clearance_0.5_extra_clearance_true_overhang_0_0_90_rot
   description: test extender 8 wire diameter 1 wire count 7x3x25
   description_extra: ''
   description_main: 7_width_3_height_25_mm_depth
