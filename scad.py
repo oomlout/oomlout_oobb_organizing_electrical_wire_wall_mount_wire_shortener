@@ -715,7 +715,7 @@ def get_extender(thing, **kwargs):
         p3["radius_name"] = "m3"
         p3["hole"] = True
         p3["clearance"] = "right"
-        p3["extra_clearance"] = 0.5
+        p3["extra_clearance"] = 0.1
         p3["overhang"] = True
         p3["m"] = "#"
         rot1 = [0,0,90]

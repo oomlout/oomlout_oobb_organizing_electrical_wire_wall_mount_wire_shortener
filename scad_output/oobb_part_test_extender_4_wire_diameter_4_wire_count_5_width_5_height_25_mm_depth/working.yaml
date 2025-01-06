@@ -2317,24 +2317,24 @@ thing:
       typetype: negative
   - - objects:
       - - - clearance: right
-            extra_clearance: 0.5
+            extra_clearance: 0.1
             height: 5
             inclusion: laser
             m: '#'
             pos:
             - -20.0
-            - -3.3899999999999997
+            - -3.2167999999999997
             - 0
             shape: cube
             sides: 6
             size:
             - 20
-            - 6.779999999999999
-            - 3.0
+            - 6.433599999999999
+            - 2.6
             type: positive
             width: 5
       - clearance: right
-        extra_clearance: 0.5
+        extra_clearance: 0.1
         height: 2.5
         inclusion: laser
         m: '#'
@@ -2348,7 +2348,7 @@ thing:
         type: positive
         width: 5
       - - - - - - clearance: right
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2367,7 +2367,7 @@ thing:
                   type: positive
                   width: 5
           - - - - clearance: right
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2386,7 +2386,7 @@ thing:
                   type: positive
                   width: 5
       - - - - - - clearance: right
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2405,7 +2405,7 @@ thing:
                   type: positive
                   width: 5
           - - - - clearance: right
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2424,7 +2424,7 @@ thing:
                   type: positive
                   width: 5
       - - clearance: right
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: laser
@@ -2438,7 +2438,7 @@ thing:
           type: positive
           width: 5
         - clearance: right
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: 3dpr
@@ -2449,7 +2449,7 @@ thing:
           type: positive
           width: 5
         - clearance: right
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: 'true'
@@ -2460,24 +2460,24 @@ thing:
           type: positive
           width: 5
       - - - clearance: right
-            extra_clearance: 0.5
+            extra_clearance: 0.1
             height: 5
             inclusion: 3dpr
             m: '#'
             pos:
             - -20.0
-            - -3.6784999999999997
+            - -3.5052999999999996
             - 0
             shape: cube
             sides: 6
             size:
             - 20
-            - 7.356999999999999
-            - 3.0
+            - 7.010599999999999
+            - 2.6
             type: positive
             width: 5
       - clearance: right
-        extra_clearance: 0.5
+        extra_clearance: 0.1
         height: 2.5
         inclusion: 3dpr
         m: '#'
@@ -2491,7 +2491,7 @@ thing:
         type: positive
         width: 5
       - - - - - - clearance: right
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2510,7 +2510,7 @@ thing:
                   type: positive
                   width: 5
           - - - - clearance: right
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2529,7 +2529,7 @@ thing:
                   type: positive
                   width: 5
       - - - - - - clearance: right
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2548,7 +2548,7 @@ thing:
                   type: positive
                   width: 5
           - - - - clearance: right
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2567,7 +2567,7 @@ thing:
                   type: positive
                   width: 5
       - - clearance: right
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: laser
@@ -2581,7 +2581,7 @@ thing:
           type: positive
           width: 5
         - clearance: right
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: 3dpr
@@ -2592,7 +2592,7 @@ thing:
           type: positive
           width: 5
         - clearance: right
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: 'true'
@@ -2603,24 +2603,24 @@ thing:
           type: positive
           width: 5
       - - - clearance: right
-            extra_clearance: 0.5
+            extra_clearance: 0.1
             height: 5
             inclusion: 'true'
             m: '#'
             pos:
             - -20.0
-            - -3.3899999999999997
+            - -3.2167999999999997
             - 0
             shape: cube
             sides: 6
             size:
             - 20
-            - 6.779999999999999
-            - 3.0
+            - 6.433599999999999
+            - 2.6
             type: positive
             width: 5
       - clearance: right
-        extra_clearance: 0.5
+        extra_clearance: 0.1
         height: 2.5
         inclusion: 'true'
         m: '#'
@@ -2634,7 +2634,7 @@ thing:
         type: positive
         width: 5
       - - - - - - clearance: right
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2653,7 +2653,7 @@ thing:
                   type: positive
                   width: 5
           - - - - clearance: right
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2672,7 +2672,7 @@ thing:
                   type: positive
                   width: 5
       - - - - - - clearance: right
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2691,7 +2691,7 @@ thing:
                   type: positive
                   width: 5
           - - - - clearance: right
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2710,7 +2710,7 @@ thing:
                   type: positive
                   width: 5
       - - clearance: right
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: laser
@@ -2724,7 +2724,7 @@ thing:
           type: positive
           width: 5
         - clearance: right
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: 3dpr
@@ -2735,7 +2735,7 @@ thing:
           type: positive
           width: 5
         - clearance: right
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: 'true'
@@ -2757,24 +2757,24 @@ thing:
       typetype: negative
   - - objects:
       - - - clearance: left
-            extra_clearance: 0.5
+            extra_clearance: 0.1
             height: 5
             inclusion: laser
             m: '#'
             pos:
             - 0.0
-            - -3.3899999999999997
+            - -3.2167999999999997
             - 0
             shape: cube
             sides: 6
             size:
             - 20
-            - 6.779999999999999
-            - 3.0
+            - 6.433599999999999
+            - 2.6
             type: positive
             width: 5
       - clearance: left
-        extra_clearance: 0.5
+        extra_clearance: 0.1
         height: 2.5
         inclusion: laser
         m: '#'
@@ -2788,7 +2788,7 @@ thing:
         type: positive
         width: 5
       - - - - - - clearance: left
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2807,7 +2807,7 @@ thing:
                   type: positive
                   width: 5
           - - - - clearance: left
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2826,7 +2826,7 @@ thing:
                   type: positive
                   width: 5
       - - - - - - clearance: left
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2845,7 +2845,7 @@ thing:
                   type: positive
                   width: 5
           - - - - clearance: left
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2864,7 +2864,7 @@ thing:
                   type: positive
                   width: 5
       - - clearance: left
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: laser
@@ -2878,7 +2878,7 @@ thing:
           type: positive
           width: 5
         - clearance: left
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: 3dpr
@@ -2889,7 +2889,7 @@ thing:
           type: positive
           width: 5
         - clearance: left
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: 'true'
@@ -2900,24 +2900,24 @@ thing:
           type: positive
           width: 5
       - - - clearance: left
-            extra_clearance: 0.5
+            extra_clearance: 0.1
             height: 5
             inclusion: 3dpr
             m: '#'
             pos:
             - 0.0
-            - -3.6784999999999997
+            - -3.5052999999999996
             - 0
             shape: cube
             sides: 6
             size:
             - 20
-            - 7.356999999999999
-            - 3.0
+            - 7.010599999999999
+            - 2.6
             type: positive
             width: 5
       - clearance: left
-        extra_clearance: 0.5
+        extra_clearance: 0.1
         height: 2.5
         inclusion: 3dpr
         m: '#'
@@ -2931,7 +2931,7 @@ thing:
         type: positive
         width: 5
       - - - - - - clearance: left
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2950,7 +2950,7 @@ thing:
                   type: positive
                   width: 5
           - - - - clearance: left
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2969,7 +2969,7 @@ thing:
                   type: positive
                   width: 5
       - - - - - - clearance: left
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -2988,7 +2988,7 @@ thing:
                   type: positive
                   width: 5
           - - - - clearance: left
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -3007,7 +3007,7 @@ thing:
                   type: positive
                   width: 5
       - - clearance: left
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: laser
@@ -3021,7 +3021,7 @@ thing:
           type: positive
           width: 5
         - clearance: left
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: 3dpr
@@ -3032,7 +3032,7 @@ thing:
           type: positive
           width: 5
         - clearance: left
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: 'true'
@@ -3043,24 +3043,24 @@ thing:
           type: positive
           width: 5
       - - - clearance: left
-            extra_clearance: 0.5
+            extra_clearance: 0.1
             height: 5
             inclusion: 'true'
             m: '#'
             pos:
             - 0.0
-            - -3.3899999999999997
+            - -3.2167999999999997
             - 0
             shape: cube
             sides: 6
             size:
             - 20
-            - 6.779999999999999
-            - 3.0
+            - 6.433599999999999
+            - 2.6
             type: positive
             width: 5
       - clearance: left
-        extra_clearance: 0.5
+        extra_clearance: 0.1
         height: 2.5
         inclusion: 'true'
         m: '#'
@@ -3074,7 +3074,7 @@ thing:
         type: positive
         width: 5
       - - - - - - clearance: left
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -3093,7 +3093,7 @@ thing:
                   type: positive
                   width: 5
           - - - - clearance: left
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -3112,7 +3112,7 @@ thing:
                   type: positive
                   width: 5
       - - - - - - clearance: left
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -3131,7 +3131,7 @@ thing:
                   type: positive
                   width: 5
           - - - - clearance: left
-                  extra_clearance: 0.5
+                  extra_clearance: 0.1
                   height: 5
                   inclusion: 3dpr
                   m: '#'
@@ -3150,7 +3150,7 @@ thing:
                   type: positive
                   width: 5
       - - clearance: left
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: laser
@@ -3164,7 +3164,7 @@ thing:
           type: positive
           width: 5
         - clearance: left
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: 3dpr
@@ -3175,7 +3175,7 @@ thing:
           type: positive
           width: 5
         - clearance: left
-          extra_clearance: 0.5
+          extra_clearance: 0.1
           h: 200
           height: 5
           inclusion: 'true'
@@ -4066,7 +4066,7 @@ thing:
     wire_diameter: 4
     wire_spacing: 15
   - clearance: right
-    extra_clearance: 0.5
+    extra_clearance: 0.1
     height: 5
     hole: true
     m: '#'
@@ -4093,7 +4093,7 @@ thing:
     wire_diameter: 4
     wire_spacing: 15
   - clearance: left
-    extra_clearance: 0.5
+    extra_clearance: 0.1
     height: 5
     hole: true
     m: '#'
@@ -4209,8 +4209,8 @@ thing:
   - oobb_plate_shape_negative_type_25_depth_0_0_-12.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4.5_width_3.5_height_25_thickness_4_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
   - oobb_screw_countersunk_shape_negative_type_m3_radius_name_12.5_depth_-22.5_30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_25_thickness_4_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_top_clearance_true_overhang
   - oobb_screw_countersunk_shape_negative_type_m3_radius_name_12.5_depth_22.5_-30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_25_thickness_4_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_top_clearance_true_overhang
-  - oobb_nut_shape_negative_type_m3_radius_name_22.5_30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_25_thickness_4_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_true_hole_right_clearance_0.5_extra_clearance_true_overhang_0_0_90_rot
-  - oobb_nut_shape_negative_type_m3_radius_name_-22.5_-30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_25_thickness_4_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_true_hole_left_clearance_0.5_extra_clearance_true_overhang_0_0_90_rot
+  - oobb_nut_shape_negative_type_m3_radius_name_22.5_30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_25_thickness_4_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_true_hole_right_clearance_0.1_extra_clearance_true_overhang_0_0_90_rot
+  - oobb_nut_shape_negative_type_m3_radius_name_-22.5_-30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_25_thickness_4_wire_count_15_wire_spacing_4_wire_diameter_1_switchback_true_hole_left_clearance_0.1_extra_clearance_true_overhang_0_0_90_rot
   - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_25_depth_7.5_30.0_12.5_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_25_thickness_4_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
   - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_25_depth_-7.5_-30.0_12.5_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_25_thickness_4_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
   - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_25_depth_-7.5_30.0_12.5_pos_all_save_type_true_overwrite_'3dpr'_modes_5_width_5_height_25_thickness_4_wire_count_15_wire_spacing_4_wire_diameter_1_switchback
