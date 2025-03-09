@@ -1,0 +1,18 @@
+id: oomlout_oomp_teardown_remote_control_transmitter_receiver_kit_2_4_ghz_4_channel_ga_4h_tx
+name: "Oomp Teardown Remote Control Transmitter Receiver Kit 2.4 GHz 4 Channel GA-4H-TX"
+description: "This teardown is for the Oomp Teardown"
+readme_manual: ""
+part_oomp_id: "remote_control_transmitter_receiver_kit_2_4_ghz_4_channel_car_style_grip_black_kit_retail_packaging_aliexpress_ga_4h_tx"
+steps:
+- box:
+  title: "In Box"
+  description: "Box photo"
+- box_1:
+  title: "Box Left Side"
+  description: "Box left side photo"
+- box_2:
+  title: "Box Right Side"
+  description: "Box right side photo"
+- teardown_1:  
+  title: "Ready to Teardown"
+  description: "Ready to teardown."
