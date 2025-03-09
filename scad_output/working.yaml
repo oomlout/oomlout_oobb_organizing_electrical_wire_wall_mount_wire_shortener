@@ -1,4 +1,50 @@
-parts: {}
+parts:
+  gland_1_width_1_height_12_mm_depth_{id}_id_{od}_od_extra:
+    classification: project
+    color: oomlout_oobb_organizing_electrical_wire
+    description_extra: '{id}_id_{od}_od_extra'
+    description_main: gland_1_width_1_height_12_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_oobb_organizing_electrical_wire_gland_1_width_1_height_12_mm_depth_{id}_id_{od}_od_extra
+    id_oobb: oobb_part_oomlout_oobb_organizing_electrical_wire_gland_1_width_1_height_12_mm_depth_{id}_id_{od}_od_extra
+    kwargs:
+      extra: '{id}_id_{od}_od'
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: true
+      od: 8
+      oomp_classification: project
+      oomp_color: oomlout_oobb_organizing_electrical_wire
+      oomp_description_extra: '{id}_id_{od}_od_extra'
+      oomp_description_main: gland_1_width_1_height_12_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      thickness: 12
+      typ: all
+      type: oomlout_oobb_organizing_electrical_wire_gland
+      width: 1
+      wire_count: 4
+      wire_diameter: 8
+    manufacturer: ''
+    name: gland
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_organizing_electrical_wire_wall_mount_wire_shortener
+    size: oomlout
+    type: github
 project_id: oomlout_oobb_organizing_electrical_wire_wall_mount_wire_shortener
 project_name: Oomlout oobb organizing electrical wire wall mount wire shortener
 project_repo: https://github.com/oomlout/oomlout_oobb_organizing_electrical_wire_wall_mount_wire_shortener

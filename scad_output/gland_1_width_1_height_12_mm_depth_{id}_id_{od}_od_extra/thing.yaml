@@ -1,0 +1,547 @@
+classification: project
+color: oomlout_oobb_organizing_electrical_wire
+description_extra: '{id}_id_{od}_od_extra'
+description_main: gland_1_width_1_height_12_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_oobb_organizing_electrical_wire_gland_1_width_1_height_12_mm_depth_{id}_id_{od}_od_extra
+id_oobb: oobb_part_oomlout_oobb_organizing_electrical_wire_gland_1_width_1_height_12_mm_depth_{id}_id_{od}_od_extra
+kwargs:
+  extra: '{id}_id_{od}_od'
+  filter: ''
+  height: 1
+  modes:
+  - 3dpr
+  navigation: true
+  od: 8
+  oomp_classification: project
+  oomp_color: oomlout_oobb_organizing_electrical_wire
+  oomp_description_extra: '{id}_id_{od}_od_extra'
+  oomp_description_main: gland_1_width_1_height_12_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: true
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  thickness: 12
+  typ: all
+  type: oomlout_oobb_organizing_electrical_wire_gland
+  width: 1
+  wire_count: 4
+  wire_diameter: 8
+manufacturer: ''
+name: gland
+part_number: ''
+project_name: C:\gh\oomlout_oobb_organizing_electrical_wire_wall_mount_wire_shortener
+size: oomlout
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 15
+      extra: '{id}_id_{od}_od'
+      h: 15
+      height: 1
+      inclusion: laser
+      od: 8
+      pos: &id001
+      - 0
+      - 0
+      - -7.5
+      r: 3.75
+      radius: 3.75
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 15
+      extra: '{id}_id_{od}_od'
+      h: 15
+      height: 1
+      inclusion: 3dpr
+      od: 8
+      pos: *id001
+      r: 3.75
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 15
+      extra: '{id}_id_{od}_od'
+      h: 15
+      height: 1
+      inclusion: 'true'
+      od: 8
+      pos: *id001
+      r: 3.75
+      radius: 3.75
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 5.375
+      extra: '{id}_id_{od}_od'
+      h: 5.375
+      height: 1
+      inclusion: laser
+      od: 8
+      pos: &id002
+      - 0
+      - 0
+      - 2.125
+      r: 6.0
+      radius: 6.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 5.375
+      extra: '{id}_id_{od}_od'
+      h: 5.375
+      height: 1
+      inclusion: 3dpr
+      od: 8
+      pos: *id002
+      r: 6.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 5.375
+      extra: '{id}_id_{od}_od'
+      h: 5.375
+      height: 1
+      inclusion: 'true'
+      od: 8
+      pos: *id002
+      r: 6.0
+      radius: 6.0
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 15
+      extra: '{id}_id_{od}_od'
+      h: 15
+      height: 1
+      inclusion: laser
+      od: 8
+      pos: &id003
+      - 0
+      - 0
+      - -7.5
+      r: 2.125
+      radius: 2.125
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 15
+      extra: '{id}_id_{od}_od'
+      h: 15
+      height: 1
+      inclusion: 3dpr
+      od: 8
+      pos: *id003
+      r: 2.125
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 15
+      extra: '{id}_id_{od}_od'
+      h: 15
+      height: 1
+      inclusion: 'true'
+      od: 8
+      pos: *id003
+      r: 2.125
+      radius: 2.125
+      shape: cylinder
+      type: negative
+      width: 1
+  - - - extra: '{id}_id_{od}_od'
+        height: 1
+        od: 8
+        pos:
+        - -7.0
+        - -4.5
+        - -7.5
+        shape: cube
+        size:
+        - 7.0
+        - 9
+        - 5.375
+        type: positive
+        width: 1
+  - objects:
+    - - depth: 15
+        extra: '{id}_id_{od}_od'
+        h: 15
+        height: 1
+        inclusion: laser
+        od: 8
+        pos: &id004
+        - 0
+        - 0
+        - -7.5
+        r: 3.75
+        radius: 3.75
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 15
+        extra: '{id}_id_{od}_od'
+        h: 15
+        height: 1
+        inclusion: 3dpr
+        od: 8
+        pos: *id004
+        r: 3.75
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 15
+        extra: '{id}_id_{od}_od'
+        h: 15
+        height: 1
+        inclusion: 'true'
+        od: 8
+        pos: *id004
+        r: 3.75
+        radius: 3.75
+        shape: cylinder
+        type: positive
+        width: 1
+    - - depth: 5.375
+        extra: '{id}_id_{od}_od'
+        h: 5.375
+        height: 1
+        inclusion: laser
+        od: 8
+        pos: &id005
+        - 0
+        - 0
+        - 2.125
+        r: 6.0
+        radius: 6.0
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 5.375
+        extra: '{id}_id_{od}_od'
+        h: 5.375
+        height: 1
+        inclusion: 3dpr
+        od: 8
+        pos: *id005
+        r: 6.0
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 5.375
+        extra: '{id}_id_{od}_od'
+        h: 5.375
+        height: 1
+        inclusion: 'true'
+        od: 8
+        pos: *id005
+        r: 6.0
+        radius: 6.0
+        shape: cylinder
+        type: positive
+        width: 1
+    - - depth: 15
+        extra: '{id}_id_{od}_od'
+        h: 15
+        height: 1
+        inclusion: laser
+        od: 8
+        pos: &id006
+        - 0
+        - 0
+        - -7.5
+        r: 2.125
+        radius: 2.125
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 15
+        extra: '{id}_id_{od}_od'
+        h: 15
+        height: 1
+        inclusion: 3dpr
+        od: 8
+        pos: *id006
+        r: 2.125
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 15
+        extra: '{id}_id_{od}_od'
+        h: 15
+        height: 1
+        inclusion: 'true'
+        od: 8
+        pos: *id006
+        r: 2.125
+        radius: 2.125
+        shape: cylinder
+        type: negative
+        width: 1
+    - - - extra: '{id}_id_{od}_od'
+          height: 1
+          od: 8
+          pos:
+          - -7.0
+          - -4.5
+          - -7.5
+          shape: cube
+          size:
+          - 7.0
+          - 9
+          - 5.375
+          type: positive
+          width: 1
+    pos:
+    - 30
+    - 0
+    - 0
+    rot:
+    - 180
+    - 0
+    - 0
+    type: rotation
+    typetype: p
+  - - extra: '{id}_id_{od}_od'
+      height: 1
+      od: 8
+      pos:
+      - -250.0
+      - 0
+      - -250.0
+      shape: cube
+      size:
+      - 500
+      - 500
+      - 500
+      type: negative
+      width: 1
+    - extra: '{id}_id_{od}_od'
+      height: 1
+      od: 8
+      pos:
+      - -250.0
+      - 0
+      - -250.0
+      shape: cube
+      size:
+      - 500
+      - 500
+      - 500
+      type: negative
+      width: 1
+    - extra: '{id}_id_{od}_od'
+      height: 1
+      od: 8
+      pos:
+      - -250.0
+      - 0
+      - -250.0
+      shape: cube
+      size:
+      - 500
+      - 500
+      - 500
+      type: negative
+      width: 1
+  components_objects:
+  - depth: 15
+    extra: '{id}_id_{od}_od'
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    od: 8
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    radius: 3.75
+    save_type: all
+    shape: oobb_cylinder
+    thickness: 12
+    typ: all
+    type: p
+    width: 1
+    wire_count: 4
+    wire_diameter: 8
+  - depth: 5.375
+    extra: '{id}_id_{od}_od'
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    od: 8
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 4.8125
+    radius: 6.0
+    save_type: all
+    shape: oobb_cylinder
+    thickness: 12
+    typ: all
+    type: p
+    width: 1
+    wire_count: 4
+    wire_diameter: 8
+  - depth: 15
+    extra: '{id}_id_{od}_od'
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    od: 8
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    radius: 2.125
+    save_type: all
+    shape: oobb_cylinder
+    thickness: 12
+    typ: all
+    type: negative
+    width: 1
+    wire_count: 4
+    wire_diameter: 8
+  - extra: '{id}_id_{od}_od'
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    od: 8
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -3.5
+    - 0
+    - -7.5
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 7.0
+    - 9
+    - 5.375
+    thickness: 12
+    typ: all
+    type: positive
+    width: 1
+    wire_count: 4
+    wire_diameter: 8
+  - extra: '{id}_id_{od}_od'
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    od: 8
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -250.0
+    - 0
+    - -250.0
+    save_type: all
+    shape: oobb_slice
+    thickness: 12
+    typ: all
+    type: n
+    width: 1
+    wire_count: 4
+    wire_diameter: 8
+  components_string:
+  - oobb_cylinder_shape_p_type_15_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_4_wire_count_8_wire_diameter_{id}_id_{od}_od_extra_8_od_3.75_radius
+  - oobb_cylinder_shape_p_type_5.375_depth_0_0_4.8125_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_4_wire_count_8_wire_diameter_{id}_id_{od}_od_extra_8_od_6.0_radius
+  - oobb_cylinder_shape_negative_type_15_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_4_wire_count_8_wire_diameter_{id}_id_{od}_od_extra_8_od_2.125_radius
+  - oobb_cube_shape_positive_type_-3.5_0_-7.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_4_wire_count_8_wire_diameter_{id}_id_{od}_od_extra_8_od_7.0_9_5.375_size
+  - oobb_slice_shape_n_type_-250.0_0_-250.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_4_wire_count_8_wire_diameter_{id}_id_{od}_od_extra_8_od
+  description: oomlout oobb organizing electrical wire gland 1x1x12
+  description_extra: '{id}_id_{od}_od_extra'
+  description_main: 1_width_1_height_12_mm_depth
+  extra: '{id}_id_{od}_od'
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_organizing_electrical_wire_gland_1_width_1_height_12_mm_depth_{id}_id_{od}_od_extra
+  height: 1
+  height_mm: 14
+  id: oobb_part_oomlout_oobb_organizing_electrical_wire_gland_1_width_1_height_12_mm_depth_{id}_id_{od}_od_extra
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_organizing_electrical_wire_gland/1_width_1_height_12_mm_depth/{id}_id_{od}_od_extra/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_organizing_electrical_wire_gland_01_01_12_ex_{id}_id_{od}_od
+  manufacturer: ''
+  name: Oobb Part Oomlout Oobb Organizing Electrical Wire Gland 1 Width 1 Height 12
+    mm Depth {Id} Id {Od} Od Extra
+  name_short: Oomlout Oobb Organizing Electrical Wire
+  part_number: ''
+  short_name: ''
+  size: oomlout_oobb_organizing_electrical_wire_gland
+  thickness: 12
+  thickness_mm: 12
+  type: part
+  width: 1
+  width_mm: 14
+type: github

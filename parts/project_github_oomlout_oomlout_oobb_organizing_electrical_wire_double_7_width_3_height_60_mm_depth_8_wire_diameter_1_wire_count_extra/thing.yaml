@@ -1,0 +1,4856 @@
+classification: project
+color: oomlout_oobb_organizing_electrical_wire
+description_extra: 8_wire_diameter_1_wire_count_extra
+description_main: double_7_width_3_height_60_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_oobb_organizing_electrical_wire_double_7_width_3_height_60_mm_depth_8_wire_diameter_1_wire_count_extra
+id_oobb: oobb_part_oomlout_oobb_organizing_electrical_wire_double_7_width_3_height_60_mm_depth_8_wire_diameter_1_wire_count_extra
+kwargs:
+  extra: 8_wire_diameter_1_wire_count
+  filter: ''
+  height: 3
+  modes:
+  - 3dpr
+  navigation: true
+  oomp_classification: project
+  oomp_color: oomlout_oobb_organizing_electrical_wire
+  oomp_description_extra: 8_wire_diameter_1_wire_count_extra
+  oomp_description_main: double_7_width_3_height_60_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: true
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  thickness: 60
+  typ: all
+  type: oomlout_oobb_organizing_electrical_wire_double
+  width: 7
+  wire_count: 1
+  wire_diameter: 8
+manufacturer: ''
+name: double
+part_number: ''
+project_name: C:\gh\oomlout_oobb_organizing_electrical_wire_wall_mount_wire_shortener
+size: oomlout
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 60
+      extra: 8_wire_diameter_1_wire_count
+      height: 3
+      pos:
+      - 0
+      - 0
+      - -30.0
+      shape: rounded_rectangle
+      size:
+      - 104
+      - 44
+      - 60
+      type: positive
+      width: 7
+  - - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id001
+        - -45.0
+        - 15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id001
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id001
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id002
+        - -30.0
+        - 15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id002
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id002
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id003
+        - -15.0
+        - 15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id003
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id003
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id004
+        - 0.0
+        - 15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id004
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id004
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id005
+        - 15.0
+        - 15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id005
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id005
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id006
+        - 30.0
+        - 15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id006
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id006
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id007
+        - 45.0
+        - 15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id007
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id007
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id008
+        - -45.0
+        - -15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id008
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id008
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id009
+        - -30.0
+        - -15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id009
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id009
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id010
+        - -15.0
+        - -15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id010
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id010
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id011
+        - 0.0
+        - -15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id011
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id011
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id012
+        - 15.0
+        - -15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id012
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id012
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id013
+        - 30.0
+        - -15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id013
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id013
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id014
+        - 45.0
+        - -15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id014
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id014
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id015
+        - -45.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id015
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id015
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id016
+        - -37.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id016
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id016
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id017
+        - -30.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id017
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id017
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id018
+        - -22.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id018
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id018
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id019
+        - -15.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id019
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id019
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id020
+        - -7.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id020
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id020
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id021
+        - 0.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id021
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id021
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id022
+        - 7.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id022
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id022
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id023
+        - 15.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id023
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id023
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id024
+        - 22.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id024
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id024
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id025
+        - 30.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id025
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id025
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id026
+        - 37.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id026
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id026
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id027
+        - 45.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id027
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id027
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id028
+        - -45.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id028
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id028
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id029
+        - -37.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id029
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id029
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id030
+        - -30.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id030
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id030
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id031
+        - -22.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id031
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id031
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id032
+        - -15.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id032
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id032
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id033
+        - -7.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id033
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id033
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id034
+        - 0.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id034
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id034
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id035
+        - 7.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id035
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id035
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id036
+        - 15.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id036
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id036
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id037
+        - 22.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id037
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id037
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id038
+        - 30.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id038
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id038
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id039
+        - 37.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id039
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id039
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id040
+        - 45.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id040
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id040
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id041
+        - -45.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id041
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id041
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id042
+        - -37.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id042
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id042
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id043
+        - -30.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id043
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id043
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id044
+        - -22.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id044
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id044
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id045
+        - -15.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id045
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id045
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id046
+        - -7.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id046
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id046
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id047
+        - 0.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id047
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id047
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id048
+        - 7.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id048
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id048
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id049
+        - 15.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id049
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id049
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id050
+        - 22.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id050
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id050
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id051
+        - 30.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id051
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id051
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id052
+        - 37.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id052
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id052
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id053
+        - 45.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id053
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id053
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id054
+        - -45.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id054
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id054
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id055
+        - -37.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id055
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id055
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id056
+        - -30.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id056
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id056
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id057
+        - -22.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id057
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id057
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id058
+        - -15.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id058
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id058
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id059
+        - -7.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id059
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id059
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id060
+        - 0.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id060
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id060
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id061
+        - 7.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id061
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id061
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id062
+        - 15.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id062
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id062
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id063
+        - 22.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id063
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id063
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id064
+        - 30.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id064
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id064
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id065
+        - 37.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id065
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id065
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id066
+        - 45.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id066
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id066
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id067
+        - -45.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id067
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id067
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id068
+        - -37.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id068
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id068
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id069
+        - -30.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id069
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id069
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id070
+        - -22.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id070
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id070
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id071
+        - -15.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id071
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id071
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id072
+        - -7.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id072
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id072
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id073
+        - 0.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id073
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id073
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id074
+        - 7.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id074
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id074
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id075
+        - 15.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id075
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id075
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id076
+        - 22.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id076
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id076
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id077
+        - 30.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id077
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id077
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id078
+        - 37.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id078
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id078
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id079
+        - 45.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id079
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id079
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id080
+        - -45.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id080
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id080
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id081
+        - -37.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id081
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id081
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id082
+        - -30.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id082
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id082
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id083
+        - -22.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id083
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id083
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id084
+        - -15.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id084
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id084
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id085
+        - -7.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id085
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id085
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id086
+        - 0.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id086
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id086
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id087
+        - 7.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id087
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id087
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id088
+        - 15.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id088
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id088
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id089
+        - 22.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id089
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id089
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id090
+        - 30.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id090
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id090
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id091
+        - 37.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id091
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id091
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id092
+        - 45.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id092
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id092
+        r: 1.5
+        shape: cylinder
+        type: negative
+  - - depth: 15
+      extra: 8_wire_diameter_1_wire_count
+      h: 15
+      height: 3
+      inclusion: laser
+      pos: &id093
+      - 37.5
+      - 0.0
+      - -7.5
+      r: 4.0
+      radius: 4.0
+      rot: &id094
+      - 0
+      - 90
+      - 0
+      shape: cylinder
+      type: negative
+      width: 7
+    - depth: 15
+      extra: 8_wire_diameter_1_wire_count
+      h: 15
+      height: 3
+      inclusion: 3dpr
+      pos: *id093
+      r: 4.0
+      rot: *id094
+      shape: cylinder
+      type: negative
+      width: 7
+    - depth: 15
+      extra: 8_wire_diameter_1_wire_count
+      h: 15
+      height: 3
+      inclusion: 'true'
+      pos: *id093
+      r: 4.0
+      radius: 4.0
+      rot: *id094
+      shape: cylinder
+      type: negative
+      width: 7
+  - - depth: 15
+      extra: 8_wire_diameter_1_wire_count
+      h: 15
+      height: 3
+      inclusion: laser
+      pos: &id095
+      - -52.5
+      - 0.0
+      - -7.5
+      r: 4.0
+      radius: 4.0
+      rot: &id096
+      - 0
+      - 90
+      - 0
+      shape: cylinder
+      type: negative
+      width: 7
+    - depth: 15
+      extra: 8_wire_diameter_1_wire_count
+      h: 15
+      height: 3
+      inclusion: 3dpr
+      pos: *id095
+      r: 4.0
+      rot: *id096
+      shape: cylinder
+      type: negative
+      width: 7
+    - depth: 15
+      extra: 8_wire_diameter_1_wire_count
+      h: 15
+      height: 3
+      inclusion: 'true'
+      pos: *id095
+      r: 4.0
+      radius: 4.0
+      rot: *id096
+      shape: cylinder
+      type: negative
+      width: 7
+  - - depth: 60
+      extra: 8_wire_diameter_1_wire_count
+      height: 1.5
+      pos:
+      - 0
+      - 0
+      - -30.0
+      shape: rounded_rectangle
+      size:
+      - 96.5
+      - 21.5
+      - 60
+      type: negative
+      width: 6.5
+  - - objects:
+      - - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 1.7
+          height: 3
+          inclusion: laser
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+          width: 7
+      - - - clearance: top
+            depth: 30.0
+            extra: 8_wire_diameter_1_wire_count
+            h: 250
+            height: 3
+            inclusion: laser
+            m: '#'
+            pos:
+            - 0
+            - 0
+            - 0.0
+            r: 2.4
+            shape: cylinder
+            type: positive
+            width: 7
+      - - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: laser
+          m: '#'
+          pos: &id097
+          - 0
+          - 0
+          - -30.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: 3dpr
+          m: '#'
+          pos: *id097
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: 'true'
+          m: '#'
+          pos: *id097
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+      - - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 1.9
+          height: 3
+          inclusion: 3dpr
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+          width: 7
+      - - - clearance: top
+            depth: 30.0
+            extra: 8_wire_diameter_1_wire_count
+            h: 250
+            height: 3
+            inclusion: 3dpr
+            m: '#'
+            pos:
+            - 0
+            - 0
+            - 0.0
+            r: 3.6
+            shape: cylinder
+            type: positive
+            width: 7
+      - - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: laser
+          m: '#'
+          pos: &id098
+          - 0
+          - 0
+          - -30.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: 3dpr
+          m: '#'
+          pos: *id098
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: 'true'
+          m: '#'
+          pos: *id098
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 7
+      - - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 1.7
+          height: 3
+          inclusion: 'true'
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+          width: 7
+      - - - clearance: top
+            depth: 30.0
+            extra: 8_wire_diameter_1_wire_count
+            h: 250
+            height: 3
+            inclusion: 'true'
+            m: '#'
+            pos:
+            - 0
+            - 0
+            - 0.0
+            r: 2.9
+            shape: cylinder
+            type: positive
+            width: 7
+      - - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: laser
+          m: '#'
+          pos: &id099
+          - 0
+          - 0
+          - -30.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: 3dpr
+          m: '#'
+          pos: *id099
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: 'true'
+          m: '#'
+          pos: *id099
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+      pos:
+      - -37.5
+      - 15.0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 1.7
+          height: 3
+          inclusion: laser
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+          width: 7
+      - - - clearance: top
+            depth: 30.0
+            extra: 8_wire_diameter_1_wire_count
+            h: 250
+            height: 3
+            inclusion: laser
+            m: '#'
+            pos:
+            - 0
+            - 0
+            - 0.0
+            r: 2.4
+            shape: cylinder
+            type: positive
+            width: 7
+      - - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: laser
+          m: '#'
+          pos: &id100
+          - 0
+          - 0
+          - -30.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: 3dpr
+          m: '#'
+          pos: *id100
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: 'true'
+          m: '#'
+          pos: *id100
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+      - - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 1.9
+          height: 3
+          inclusion: 3dpr
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+          width: 7
+      - - - clearance: top
+            depth: 30.0
+            extra: 8_wire_diameter_1_wire_count
+            h: 250
+            height: 3
+            inclusion: 3dpr
+            m: '#'
+            pos:
+            - 0
+            - 0
+            - 0.0
+            r: 3.6
+            shape: cylinder
+            type: positive
+            width: 7
+      - - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: laser
+          m: '#'
+          pos: &id101
+          - 0
+          - 0
+          - -30.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: 3dpr
+          m: '#'
+          pos: *id101
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: 'true'
+          m: '#'
+          pos: *id101
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 7
+      - - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 1.7
+          height: 3
+          inclusion: 'true'
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+          width: 7
+      - - - clearance: top
+            depth: 30.0
+            extra: 8_wire_diameter_1_wire_count
+            h: 250
+            height: 3
+            inclusion: 'true'
+            m: '#'
+            pos:
+            - 0
+            - 0
+            - 0.0
+            r: 2.9
+            shape: cylinder
+            type: positive
+            width: 7
+      - - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: laser
+          m: '#'
+          pos: &id102
+          - 0
+          - 0
+          - -30.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: 3dpr
+          m: '#'
+          pos: *id102
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: top
+          depth: 30.0
+          extra: 8_wire_diameter_1_wire_count
+          h: 30.0
+          height: 3
+          inclusion: 'true'
+          m: '#'
+          pos: *id102
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+      pos:
+      - 37.5
+      - -15.0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: right
+            extra: 8_wire_diameter_1_wire_count
+            extra_clearance: 0.1
+            height: 3
+            inclusion: laser
+            m: '#'
+            pos:
+            - -20.0
+            - -3.2167999999999997
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 6.433599999999999
+            - 2.6
+            type: positive
+            width: 7
+      - clearance: right
+        extra: 8_wire_diameter_1_wire_count
+        extra_clearance: 0.1
+        height: 2.5
+        inclusion: laser
+        m: '#'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 7
+      - - - - - - clearance: right
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 7
+          - - - - clearance: right
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 7
+      - - - - - - clearance: right
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - 2.5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 7
+          - - - - clearance: right
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - 2.8
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 7
+      - - clearance: right
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: laser
+          m: '#'
+          pos: &id103
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: right
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          m: '#'
+          pos: *id103
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: right
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: 'true'
+          m: '#'
+          pos: *id103
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+      - - - clearance: right
+            extra: 8_wire_diameter_1_wire_count
+            extra_clearance: 0.1
+            height: 3
+            inclusion: 3dpr
+            m: '#'
+            pos:
+            - -20.0
+            - -3.5052999999999996
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 7.010599999999999
+            - 2.6
+            type: positive
+            width: 7
+      - clearance: right
+        extra: 8_wire_diameter_1_wire_count
+        extra_clearance: 0.1
+        height: 2.5
+        inclusion: 3dpr
+        m: '#'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 7
+      - - - - - - clearance: right
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 7
+          - - - - clearance: right
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 7
+      - - - - - - clearance: right
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - 2.5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 7
+          - - - - clearance: right
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - 2.8
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 7
+      - - clearance: right
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: laser
+          m: '#'
+          pos: &id104
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: right
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          m: '#'
+          pos: *id104
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: right
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: 'true'
+          m: '#'
+          pos: *id104
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+      - - - clearance: right
+            extra: 8_wire_diameter_1_wire_count
+            extra_clearance: 0.1
+            height: 3
+            inclusion: 'true'
+            m: '#'
+            pos:
+            - -20.0
+            - -3.2167999999999997
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 6.433599999999999
+            - 2.6
+            type: positive
+            width: 7
+      - clearance: right
+        extra: 8_wire_diameter_1_wire_count
+        extra_clearance: 0.1
+        height: 2.5
+        inclusion: 'true'
+        m: '#'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 7
+      - - - - - - clearance: right
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 7
+          - - - - clearance: right
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 7
+      - - - - - - clearance: right
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - 2.5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 7
+          - - - - clearance: right
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - 2.8
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 7
+      - - clearance: right
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: laser
+          m: '#'
+          pos: &id105
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: right
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          m: '#'
+          pos: *id105
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: right
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: 'true'
+          m: '#'
+          pos: *id105
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+      pos:
+      - 37.5
+      - 15.0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 90
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            extra: 8_wire_diameter_1_wire_count
+            extra_clearance: 0.1
+            height: 3
+            inclusion: laser
+            m: '#'
+            pos:
+            - 0.0
+            - -3.2167999999999997
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 6.433599999999999
+            - 2.6
+            type: positive
+            width: 7
+      - clearance: left
+        extra: 8_wire_diameter_1_wire_count
+        extra_clearance: 0.1
+        height: 2.5
+        inclusion: laser
+        m: '#'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 7
+      - - - - - - clearance: left
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 7
+          - - - - clearance: left
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 7
+      - - - - - - clearance: left
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - 2.5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 7
+          - - - - clearance: left
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - 2.8
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 7
+      - - clearance: left
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: laser
+          m: '#'
+          pos: &id106
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: left
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          m: '#'
+          pos: *id106
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: left
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: 'true'
+          m: '#'
+          pos: *id106
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+      - - - clearance: left
+            extra: 8_wire_diameter_1_wire_count
+            extra_clearance: 0.1
+            height: 3
+            inclusion: 3dpr
+            m: '#'
+            pos:
+            - 0.0
+            - -3.5052999999999996
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 7.010599999999999
+            - 2.6
+            type: positive
+            width: 7
+      - clearance: left
+        extra: 8_wire_diameter_1_wire_count
+        extra_clearance: 0.1
+        height: 2.5
+        inclusion: 3dpr
+        m: '#'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 7
+      - - - - - - clearance: left
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 7
+          - - - - clearance: left
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 7
+      - - - - - - clearance: left
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - 2.5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 7
+          - - - - clearance: left
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - 2.8
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 7
+      - - clearance: left
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: laser
+          m: '#'
+          pos: &id107
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: left
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          m: '#'
+          pos: *id107
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: left
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: 'true'
+          m: '#'
+          pos: *id107
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+      - - - clearance: left
+            extra: 8_wire_diameter_1_wire_count
+            extra_clearance: 0.1
+            height: 3
+            inclusion: 'true'
+            m: '#'
+            pos:
+            - 0.0
+            - -3.2167999999999997
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 6.433599999999999
+            - 2.6
+            type: positive
+            width: 7
+      - clearance: left
+        extra: 8_wire_diameter_1_wire_count
+        extra_clearance: 0.1
+        height: 2.5
+        inclusion: 'true'
+        m: '#'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 7
+      - - - - - - clearance: left
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 7
+          - - - - clearance: left
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 7
+      - - - - - - clearance: left
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - 2.5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 7
+          - - - - clearance: left
+                  extra: 8_wire_diameter_1_wire_count
+                  extra_clearance: 0.1
+                  height: 3
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - 2.8
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 7
+      - - clearance: left
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: laser
+          m: '#'
+          pos: &id108
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: left
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          m: '#'
+          pos: *id108
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 7
+        - clearance: left
+          extra: 8_wire_diameter_1_wire_count
+          extra_clearance: 0.1
+          h: 200
+          height: 3
+          inclusion: 'true'
+          m: '#'
+          pos: *id108
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 7
+      pos:
+      - -37.5
+      - -15.0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 90
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 2.5
+          height: 3
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -2.5
+          r1: 2.0
+          r2: 3.5
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: laser
+          pos: &id109
+          - 0
+          - 0
+          - -60.0
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 3dpr
+          pos: *id109
+          r: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 'true'
+          pos: *id109
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 3
+          height: 3
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -3
+          r1: 2.125
+          r2: 3.75
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: laser
+          pos: &id110
+          - 0
+          - 0
+          - -60.0
+          r: 2.125
+          radius: 2.125
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 3dpr
+          pos: *id110
+          r: 2.125
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 'true'
+          pos: *id110
+          r: 2.125
+          radius: 2.125
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 2.5
+          height: 3
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -2.5
+          r1: 2.0
+          r2: 3.5
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: laser
+          pos: &id111
+          - 0
+          - 0
+          - -60.0
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 3dpr
+          pos: *id111
+          r: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 'true'
+          pos: *id111
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+      pos:
+      - 22.5
+      - 15.0
+      - 30.0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 2.5
+          height: 3
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -2.5
+          r1: 2.0
+          r2: 3.5
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: laser
+          pos: &id112
+          - 0
+          - 0
+          - -60.0
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 3dpr
+          pos: *id112
+          r: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 'true'
+          pos: *id112
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 3
+          height: 3
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -3
+          r1: 2.125
+          r2: 3.75
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: laser
+          pos: &id113
+          - 0
+          - 0
+          - -60.0
+          r: 2.125
+          radius: 2.125
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 3dpr
+          pos: *id113
+          r: 2.125
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 'true'
+          pos: *id113
+          r: 2.125
+          radius: 2.125
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 2.5
+          height: 3
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -2.5
+          r1: 2.0
+          r2: 3.5
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: laser
+          pos: &id114
+          - 0
+          - 0
+          - -60.0
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 3dpr
+          pos: *id114
+          r: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 'true'
+          pos: *id114
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+      pos:
+      - -22.5
+      - -15.0
+      - 30.0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 2.5
+          height: 3
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -2.5
+          r1: 2.0
+          r2: 3.5
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: laser
+          pos: &id115
+          - 0
+          - 0
+          - -60.0
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 3dpr
+          pos: *id115
+          r: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 'true'
+          pos: *id115
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 3
+          height: 3
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -3
+          r1: 2.125
+          r2: 3.75
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: laser
+          pos: &id116
+          - 0
+          - 0
+          - -60.0
+          r: 2.125
+          radius: 2.125
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 3dpr
+          pos: *id116
+          r: 2.125
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 'true'
+          pos: *id116
+          r: 2.125
+          radius: 2.125
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 2.5
+          height: 3
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -2.5
+          r1: 2.0
+          r2: 3.5
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: laser
+          pos: &id117
+          - 0
+          - 0
+          - -60.0
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 3dpr
+          pos: *id117
+          r: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 'true'
+          pos: *id117
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+      pos:
+      - -22.5
+      - 15.0
+      - 30.0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 2.5
+          height: 3
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -2.5
+          r1: 2.0
+          r2: 3.5
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: laser
+          pos: &id118
+          - 0
+          - 0
+          - -60.0
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 3dpr
+          pos: *id118
+          r: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 'true'
+          pos: *id118
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 3
+          height: 3
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -3
+          r1: 2.125
+          r2: 3.75
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: laser
+          pos: &id119
+          - 0
+          - 0
+          - -60.0
+          r: 2.125
+          radius: 2.125
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 3dpr
+          pos: *id119
+          r: 2.125
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 'true'
+          pos: *id119
+          r: 2.125
+          radius: 2.125
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 2.5
+          height: 3
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -2.5
+          r1: 2.0
+          r2: 3.5
+          shape: cylinder
+          type: positive
+          width: 7
+      - - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: laser
+          pos: &id120
+          - 0
+          - 0
+          - -60.0
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 3dpr
+          pos: *id120
+          r: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+        - depth: 60
+          extra: 8_wire_diameter_1_wire_count
+          h: 60
+          height: 3
+          inclusion: 'true'
+          pos: *id120
+          r: 2.0
+          radius: 2.0
+          shape: cylinder
+          type: positive
+          width: 7
+      pos:
+      - 22.5
+      - -15.0
+      - 30.0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  components_objects:
+  - depth: 60
+    extra: 8_wire_diameter_1_wire_count
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - -30.0
+    save_type: all
+    shape: oobb_plate
+    thickness: 60
+    typ: all
+    type: p
+    width: 7
+    wire_count: 1
+    wire_diameter: 8
+  - both_holes: true
+    extra: 8_wire_diameter_1_wire_count
+    filter: ''
+    height: 3
+    holes:
+    - right
+    - left
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    save_type: all
+    shape: oobb_holes
+    thickness: 60
+    typ: all
+    type: p
+    width: 7
+    wire_count: 1
+    wire_diameter: 8
+  - depth: 15
+    extra: 8_wire_diameter_1_wire_count
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 37.5
+    - 0.0
+    - 0
+    radius: 4.0
+    rot:
+    - 0
+    - 90
+    - 0
+    save_type: all
+    shape: oobb_cylinder
+    thickness: 60
+    typ: all
+    type: negative
+    width: 7
+    wire_count: 1
+    wire_diameter: 8
+  - depth: 15
+    extra: 8_wire_diameter_1_wire_count
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -52.5
+    - 0.0
+    - 0
+    radius: 4.0
+    rot:
+    - 0
+    - 90
+    - 0
+    save_type: all
+    shape: oobb_cylinder
+    thickness: 60
+    typ: all
+    type: negative
+    width: 7
+    wire_count: 1
+    wire_diameter: 8
+  - depth: 60
+    extra: 8_wire_diameter_1_wire_count
+    filter: ''
+    height: 1.5
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - -30.0
+    save_type: all
+    shape: oobb_plate
+    thickness: 60
+    typ: all
+    type: negative
+    width: 6.5
+    wire_count: 1
+    wire_diameter: 8
+  - clearance: top
+    depth: 30.0
+    extra: 8_wire_diameter_1_wire_count
+    filter: ''
+    height: 3
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overhang: true
+    overwrite: true
+    pos:
+    - -37.5
+    - 15.0
+    - 0
+    radius_name: m3
+    save_type: all
+    shape: oobb_screw_countersunk
+    thickness: 60
+    typ: all
+    type: negative
+    width: 7
+    wire_count: 1
+    wire_diameter: 8
+  - clearance: top
+    depth: 30.0
+    extra: 8_wire_diameter_1_wire_count
+    filter: ''
+    height: 3
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overhang: true
+    overwrite: true
+    pos:
+    - 37.5
+    - -15.0
+    - 0
+    radius_name: m3
+    save_type: all
+    shape: oobb_screw_countersunk
+    thickness: 60
+    typ: all
+    type: negative
+    width: 7
+    wire_count: 1
+    wire_diameter: 8
+  - clearance: right
+    extra: 8_wire_diameter_1_wire_count
+    extra_clearance: 0.1
+    filter: ''
+    height: 3
+    hole: true
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overhang: true
+    overwrite: true
+    pos:
+    - 37.5
+    - 15.0
+    - 0
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 90
+    save_type: all
+    shape: oobb_nut
+    thickness: 60
+    typ: all
+    type: negative
+    width: 7
+    wire_count: 1
+    wire_diameter: 8
+  - clearance: left
+    extra: 8_wire_diameter_1_wire_count
+    extra_clearance: 0.1
+    filter: ''
+    height: 3
+    hole: true
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overhang: true
+    overwrite: true
+    pos:
+    - -37.5
+    - -15.0
+    - 0
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 90
+    save_type: all
+    shape: oobb_nut
+    thickness: 60
+    typ: all
+    type: negative
+    width: 7
+    wire_count: 1
+    wire_diameter: 8
+  - depth: 60
+    extra: 8_wire_diameter_1_wire_count
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 22.5
+    - 15.0
+    - 30.0
+    radius_name: m3_screw_wood
+    save_type: all
+    shape: oobb_screw_countersunk
+    thickness: 60
+    typ: all
+    type: negative
+    width: 7
+    wire_count: 1
+    wire_diameter: 8
+  - depth: 60
+    extra: 8_wire_diameter_1_wire_count
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -22.5
+    - -15.0
+    - 30.0
+    radius_name: m3_screw_wood
+    save_type: all
+    shape: oobb_screw_countersunk
+    thickness: 60
+    typ: all
+    type: negative
+    width: 7
+    wire_count: 1
+    wire_diameter: 8
+  - depth: 60
+    extra: 8_wire_diameter_1_wire_count
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -22.5
+    - 15.0
+    - 30.0
+    radius_name: m3_screw_wood
+    save_type: all
+    shape: oobb_screw_countersunk
+    thickness: 60
+    typ: all
+    type: negative
+    width: 7
+    wire_count: 1
+    wire_diameter: 8
+  - depth: 60
+    extra: 8_wire_diameter_1_wire_count
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_organizing_electrical_wire
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 22.5
+    - -15.0
+    - 30.0
+    radius_name: m3_screw_wood
+    save_type: all
+    shape: oobb_screw_countersunk
+    thickness: 60
+    typ: all
+    type: negative
+    width: 7
+    wire_count: 1
+    wire_diameter: 8
+  components_string:
+  - oobb_plate_shape_p_type_60_depth_0_0_-30.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_7_width_3_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_1_wire_count_8_wire_diameter_8_wire_diameter_1_wire_count_extra
+  - oobb_holes_shape_p_type_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_7_width_3_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_1_wire_count_8_wire_diameter_8_wire_diameter_1_wire_count_extra_true_both_holes_'right'_'left'_holes
+  - oobb_cylinder_shape_negative_type_15_depth_37.5_0.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_7_width_3_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_1_wire_count_8_wire_diameter_8_wire_diameter_1_wire_count_extra_4.0_radius_0_90_0_rot
+  - oobb_cylinder_shape_negative_type_15_depth_-52.5_0.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_7_width_3_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_1_wire_count_8_wire_diameter_8_wire_diameter_1_wire_count_extra_4.0_radius_0_90_0_rot
+  - oobb_plate_shape_negative_type_60_depth_0_0_-30.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_6.5_width_1.5_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_1_wire_count_8_wire_diameter_8_wire_diameter_1_wire_count_extra
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_30.0_depth_-37.5_15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_7_width_3_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_1_wire_count_8_wire_diameter_8_wire_diameter_1_wire_count_extra_top_clearance_true_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_30.0_depth_37.5_-15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_7_width_3_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_1_wire_count_8_wire_diameter_8_wire_diameter_1_wire_count_extra_top_clearance_true_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_37.5_15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_7_width_3_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_1_wire_count_8_wire_diameter_8_wire_diameter_1_wire_count_extra_true_hole_right_clearance_0.1_extra_clearance_true_overhang_0_0_90_rot
+  - oobb_nut_shape_negative_type_m3_radius_name_-37.5_-15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_7_width_3_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_1_wire_count_8_wire_diameter_8_wire_diameter_1_wire_count_extra_true_hole_left_clearance_0.1_extra_clearance_true_overhang_0_0_90_rot
+  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_60_depth_22.5_15.0_30.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_7_width_3_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_1_wire_count_8_wire_diameter_8_wire_diameter_1_wire_count_extra
+  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_60_depth_-22.5_-15.0_30.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_7_width_3_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_1_wire_count_8_wire_diameter_8_wire_diameter_1_wire_count_extra
+  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_60_depth_-22.5_15.0_30.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_7_width_3_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_1_wire_count_8_wire_diameter_8_wire_diameter_1_wire_count_extra
+  - oobb_screw_countersunk_shape_negative_type_m3_screw_wood_radius_name_60_depth_22.5_-15.0_30.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_7_width_3_height_60_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_organizing_electrical_wire_oomp_color_1_wire_count_8_wire_diameter_8_wire_diameter_1_wire_count_extra
+  description: oomlout oobb organizing electrical wire double 7x3x60
+  description_extra: 8_wire_diameter_1_wire_count_extra
+  description_main: 7_width_3_height_60_mm_depth
+  extra: 8_wire_diameter_1_wire_count
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_organizing_electrical_wire_double_7_width_3_height_60_mm_depth_8_wire_diameter_1_wire_count_extra
+  height: 3
+  height_mm: 44
+  id: oobb_part_oomlout_oobb_organizing_electrical_wire_double_7_width_3_height_60_mm_depth_8_wire_diameter_1_wire_count_extra
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_organizing_electrical_wire_double/7_width_3_height_60_mm_depth/8_wire_diameter_1_wire_count_extra/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_organizing_electrical_wire_double_07_03_60_ex_8_wire_diameter_1_wire_count
+  manufacturer: ''
+  name: Oobb Part Oomlout Oobb Organizing Electrical Wire Double 7 Width 3 Height
+    60 mm Depth 8 Wire Diameter 1 Wire Count Extra
+  name_short: Oomlout Oobb Organizing Electrical Wire
+  part_number: ''
+  short_name: ''
+  size: oomlout_oobb_organizing_electrical_wire_double
+  thickness: 60
+  thickness_mm: 60
+  type: part
+  width: 7
+  width_mm: 104
+type: github
